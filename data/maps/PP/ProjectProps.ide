@@ -1,9 +1,6 @@
-# This file has been modified by IDE ID Renumber Script by Grinch_
 objs
 19200, pls_steel_beam, pls_steel_beam, 100, 0
 19201, p_oil_slick_01, p_oil_slick_01, 299, 0
-19202, wall003, all_walls, 100, 0
-19203, prop_barrel_02b, prop_barrel_02b, 299, 0
 19204, prop_telescope_01, prop_telescope_01, 299, 0
 19205, 1a5ceba4, 1a5ceba4, 299, 0
 19206, 1b206e0f, 1b206e0f, 299, 0
@@ -159,7 +156,6 @@ objs
 19356, 2b8c0657, 2b8c0657, 299, 0
 19357, 2cbe2fbe, 2cbe2fbe, 299, 0
 19358, 3a015e1b, 3a015e1b, 299, 0
-19359, 3a6168f2, 3a6168f2, 299, 0
 19360, 3fe27bae, 3fe27bae, 299, 0
 19361, 7b059043, 7b059043, 299, 0
 19362, 8fa7758f, 8fa7758f, 299, 0
@@ -169,19 +165,14 @@ objs
 19366, 47fde645, 47fde645, 299, 0
 19367, 115d9ea5, 115d9ea5, 299, 0
 19368, 484fe6e1, 484fe6e1, 299, 0
-19369, 532b1dd1, 532b1dd1, 299, 0
 19370, 5707dd4e, 5707dd4e, 299, 0
 19371, 7203ba48, 7203ba48, 299, 0
 19372, 72178dba, 72178dba, 299, 0
-19373, 654179c1, 654179c1, 299, 0
 19374, 3605424c, 3605424c, 299, 0
-19375, 8088304a, 8088304a, 299, 0
 19376, 61721925, 61721925, 299, 0
 19377, b12ad7ef, b12ad7ef, 299, 0
-19378, bde777b6, bde777b6, 299, 0
 19379, cdff8619, cdff8619, 299, 0
 19380, d00e75f9, d00e75f9, 299, 0
-19381, de91e699, de91e699, 299, 0
 19382, f3bf3eb6, f3bf3eb6, 299, 0
 19383, f1844d22, f1844d22, 299, 0
 19384, 1c8e4815, 94d5789b, 299, 0
@@ -191,7 +182,6 @@ objs
 19388, PLS_carpark, PLS_carpark, 60, 0
 19389, PLS_speedbump, PLS_speedbump, 120, 0
 19390, PLS_speedbumpsign, PLS_speedbumpsign, 0, 0
-19391, bballcourt02_lae2, bballcourt02_lae2, 299, 0
 19392, PLS_buoy1, PLS_buoy, 299, 0
 19393, PLS_speedlimit25, pls_speedlimit25, 100, 0
 19394, PLS_speedlimit55, PLS_speedlimit55, 100, 0
@@ -203,133 +193,52 @@ objs
 19400, pls_barrier_10, pls_barrier, 100, 0
 19401, pls_barrier_11, pls_barrier, 100, 0
 19402, pls_bin_1, pls_bin_1, 100, 0
-19403, pls_bin_15, pls_bin_15, 100, 0
 19404, pls_carpark1, pls_carpark1, 100, 0
 19405, pls_carpark1a, pls_carpark1, 100, 0
-19406, pls_ind_light_4, pls_ind_light_4, 100, 0
-19407, pls_rub_pile_1, pls_rub_pile, 100, 0
-19408, pls_rub_pile_2, pls_rub_pile, 100, 0
-19409, pls_rub_pile_3, pls_rub_pile, 100, 0
-19410, pls_rub_pile_4, pls_rub_pile, 100, 0
 19411, pls_rub_pile_5, pls_rub_pile, 100, 0
-19412, pls_rub_pile_6, pls_rub_pile, 100, 0
-19413, pls_rub_pile_7, pls_rub_pile, 100, 0
 19414, pls_rub_pile_8, pls_rub_pile, 100, 0
-19415, pls_rub_pile_9, pls_rub_pile, 100, 0
 19416, pls_security_hut_1, pls_securityhut, 100, 0
-19417, woodpanel, woodpanel, 100, 0
 19418, p_planning_board_01, p_planning_board_01, 299, 0
-19419, p_secret_weapon_02, p_secret_weapon_02, 299, 0
-19420, prop_barrel_float_2, prop_barrel_float_2, 299, 0
 19421, prop_cs_bin_01, prop_cs_bin, 299, 0
-19422, prop_cs_bin_01_lid, prop_cs_bin_01_lid, 299, 0
-19423, prop_cs_package_01, prop_cs_package_01, 299, 0
-19424, prop_cs_panel_01, prop_cs_panel_01, 299, 0
-19425, prop_dummy_01, prop_dummy_01, 299, 0
-19426, prop_dummy_plane, prop_dummy_plane, 299, 0
-19427, p_crahsed_heli_s, p_crahsed_heli_s, 299, 0
-19428, p_cs_mp_jet_01_s, p_cs_mp_jet_01_s, 299, 0
-19429, p_med_jet_01_s, p_med_jet_01_s, 299, 0
 19430, p_rail_controller_s, p_rail_controller_s, 299, 0
 19431, prop_conslift_rail, prop_conslift_rail, 299, 0
 19432, prop_conslift_rail2, prop_conslift_rail2, 299, 0
-19433, prop_ld_filmset, prop_ld_filmset, 299, 0
 19434, prop_warehseshelf01, prop_warehseshelf01, 299, 0
 19435, prop_warehseshelf02, prop_warehseshelf02, 299, 0
 19436, prop_warehseshelf03, prop_warehseshelf03, 299, 0
 19437, prop_railtra, prop_railtra, 299, 0
 19438, truktrailer, truktrailer, 299, 0
-19439, prop_trailer, prop_trailer, 299, 0
-19440, prop_byard_chains01, prop_byard_chains01, 299, 0
 19441, prop_byard_pipe_01, prop_byard_pipe_01, 299, 0
 19442, prop_byard_pipes01, prop_byard_pipes01, 299, 0
 19443, prop_byard_planks01, prop_byard_planks01, 299, 0
 19444, prop_sleeper, prop_sleeper, 299, 0
-19445, prop_cj_big_boat, prop_cj_big_boat, 299, 0
 19446, prop_dumpster_3a, prop_dumpster_3a, 299, 128
-19447, prop_dumpster_3step, prop_dumpster_3step, 299, 0
-19448, prop_dumpster_4a, prop_dumpster_4a, 299, 0
 19449, prop_dumpster_4b, prop_dumpster_4b, 299, 0
 19450, prop_gas_01, prop_gas_01, 299, 0
 19451, prop_gas_02, prop_gas_02, 299, 0
 19452, prop_gas_03, prop_gas_03, 299, 0
 19453, prop_gas_04, prop_gas_04, 299, 0
 19454, prop_gas_05, prop_gas_05, 299, 0
-19455, prop_gascage01, prop_gascage01, 299, 0
 19456, prop_pipes_01a, prop_pipes_01a, 299, 0
 19457, prop_pipes_01b, prop_pipes_01b, 299, 0
 19458, prop_pipes_03b, prop_pipes_03b, 299, 0
 19459, prop_pipes_04a, prop_pipes_04a, 299, 0
 19460, prop_pipes_05a, prop_pipes_05a, 299, 0
 19461, prop_pipes_conc_01, prop_pipes_conc_01, 299, 0
-19462, prop_pipes_conc_02, prop_pipes_conc_02, 299, 0
-19463, prop_rail_boxcar, prop_rail_boxcar, 299, 0
-19464, prop_rail_boxcar2, prop_rail_boxcar2, 299, 0
-19465, prop_rail_boxcar3, prop_rail_boxcar3, 299, 0
-19466, prop_rail_boxcar4, prop_rail_boxcar4, 299, 0
-19467, prop_rail_boxcar5, prop_rail_boxcar5, 299, 0
-19468, prop_rail_buffer_01, prop_rail_buffer_01, 299, 0
 19469, prop_rail_buffer_02, prop_rail_buffer_02, 299, 0
-19470, prop_rail_crane_01, prop_rail_crane_01, 299, 0
-19471, prop_rail_points01, prop_rail_points01, 299, 0
-19472, prop_rail_points02, prop_rail_points02, 299, 0
 19473, prop_rail_sigbox01, prop_rail_sigbox01, 299, 0
-19474, prop_rail_sigbox02, prop_rail_sigbox02, 299, 0
 19475, prop_rail_signals02, prop_rail_signals02, 299, 0
-19476, prop_rail_tankcar, prop_rail_tankcar, 299, 0
-19477, prop_rail_tankcar2, prop_rail_tankcar2, 299, 0
-19478, prop_rail_tankcar3, prop_rail_tankcar3, 299, 0
-19479, prop_rail_wellcar, prop_rail_wellcar, 299, 0
-19480, prop_rail_wellcar2, prop_rail_wellcar2, 299, 0
 19481, prop_railsleepers01, prop_railsleepers01, 299, 0
 19482, prop_railsleepers02, prop_railsleepers02, 299, 0
 19483, prop_railstack01, prop_railstack01, 299, 0
 19484, prop_railstack02, prop_railstack02, 299, 0
 19485, prop_railstack03, prop_railstack03, 299, 0
 19486, prop_railstack04, prop_railstack04, 299, 0
-19487, prop_railstack05, prop_railstack05, 299, 0
 19488, prop_rub_bike_01, prop_rub_bike_01, 299, 0
 19489, prop_rub_bike_02, prop_rub_bike_02, 299, 0
-19490, prop_rub_bike_03, prop_rub_bike_03, 299, 0
 19491, prop_buswreck3, prop_buswreck3, 299, 0
-19492, prop_buswreck6, prop_buswreck6, 299, 0
-19493, prop_railwreck1, prop_railwreck1, 299, 0
-19494, prop_railwreck2, prop_railwreck2, 299, 0
-19495, prop_railwreck3, prop_railwreck3, 299, 0
 19496, prop_railwreck4, prop_railwreck4, 299, 0
-19497, prop_railwreck5, prop_railwreck5, 299, 0
-19498, rub_buswreck, rub_buswreck, 299, 0
 19499, prop_rub_wreckage_3, prop_rub_wreckage_3, 299, 0
-19500, prop_rub_wreckage_4, prop_rub_wreckage_4, 299, 0
-19501, prop_rub_wreckage_5, prop_rub_wreckage_5, 299, 0
-19502, prop_rub_wreckage_6, prop_rub_wreckage_6, 299, 0
-19503, prop_rub_wreckage_7, prop_rub_wreckage_7, 299, 0
-19504, prop_rub_wreckage_8, prop_rub_wreckage_8, 299, 0
-19505, prop_rub_wreckage_9, prop_rub_wreckage_9, 299, 0
-19506, prop_skate_rail, prop_skate_rail, 299, 0
-19507, prop_skip_01a, prop_skip_01a, 299, 0
-19508, prop_skip_02a, prop_skip_02a, 299, 0
 19509, prop_skip_03, prop_skip_03, 299, 0
-19510, prop_skip_04, prop_skip_04, 299, 0
 19511, prop_skip_05a, prop_skip_05a, 299, 0
-19512, prop_skip_05b, prop_skip_05b, 299, 0
-19513, prop_skip_06a, prop_skip_06a, 299, 0
-19514, prop_skip_08a, prop_skip_08a, 299, 0
-19515, prop_skip_08b, prop_skip_08b, 299, 0
-19516, prop_skip_10a, prop_skip_10a, 299, 0
 end
-
-
-
-
-
-
-
-end
-
-
-
-
-
-
-
