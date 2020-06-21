@@ -1,0 +1,8 @@
+
+IMG DATA\MAPS\ProjectProps.img
+IDE DATA\MAPS\ProjectProps.ide
+
+PT: Remova o "#" para carregar novas pichações — necessário Novo Jogo
+EN: Remove the "#" to load new graffitis — required New Game
+
+#IPL DATA\MAPS\Graffiti.ipl
