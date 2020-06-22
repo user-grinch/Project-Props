@@ -1,5 +1,9 @@
-# Project Props
-A props modification for Grand Theft Auto San Andreas
+
+<p align="center">
+  <img width="400" height="250" src="https://i.ibb.co/xHsMTYZ/Project-Props.png">
+</p>
+
+#
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/user-grinch/Project-Props?label=Size&style=for-the-badge)
 [![MixMods](https://img.shields.io/badge/Topic-Mixmods-%234e4784?style=for-the-badge)](https://forum.mixmods.com.br/f6-mapas-objetos/t181-project-props)
@@ -38,7 +42,7 @@ More images are <a href="https://ibb.co/album/dPJ7dv">here</a>
 - TiagoTheGamer
 - Tk armakar
 
-# Thanks
+## Thanks
 
 - DK22Pac
 - LINK/2012
