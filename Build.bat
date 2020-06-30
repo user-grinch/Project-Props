@@ -19,7 +19,7 @@ if exist "%workingDir%\ProjectProps.img" (
 	del "%workingDir%\ProjectProps.img"
 )
 echo Building img...
-pause
+
 "%CD%\tools\fastman92ImgConsole32.exe" -script "%workingDir%\create_img_archive.txt"
 
 REM --------------------------------------------------
