@@ -11,7 +11,8 @@
 
 # Installation
 1. Download & install modloader from [here](https://www.gtagarage.com/mods/show.php?id=25377).
-2. Download (or clone) the repository and extract everything inside modloader folder.
+2. Download (or clone) the repository extract everything inside modloader folder.
+3. Run the 'Build.bat' file.
 3. Done
 
 <details>

@@ -1,0 +1,4 @@
+-openOrCreate "ProjectProps.img" "2"
+-importFromDirectory "img_src"
+-rebuildIfArchiveWasModified
+-close
