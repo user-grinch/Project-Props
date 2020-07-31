@@ -1,4 +1,3 @@
-# This file has been modified by IDE ID Renumber Script by Grinch_
 objs
 19200, pls_steel_beam, pls_steel_beam, 100, 0
 19201, p_oil_slick_01, p_oil_slick_01, 299, 0
@@ -294,8 +293,6 @@ objs
 19491, ng_proc_fochip, ng_proc_fochip, 299, 0
 19492, ng_proc_fochips1, ng_proc_fochips1, 299, 0
 19493, prop_postbox_ss, prop_postbox_ss_01a, 299, 0
-#19494, prop_rub_bike_01, prop_rub_bike_01, 299, 0
-#19495, prop_rub_bike_02, prop_rub_bike_02, 299, 0
 19496, prop_rub_couch02, prop_rub_couch02, 299, 0
 19497, prop_rub_couch04, prop_rub_couch04, 299, 0
 19498, prop_rub_monitor, prop_rub_monitor, 299, 0
@@ -305,7 +302,7 @@ objs
 19502, prop_skid_box_02, prop_skid_box, 299, 0
 19503, prop_skid_box_03, prop_skid_box, 299, 0
 19504, prop_skid_box_04, prop_skid_box, 299, 0
-19505, prop_skid_box_05, prop_skid_box, 299, 0
+#19505, prop_skid_box_05, prop_skid_box, 299, 0
 19506, prop_skid_box_06, prop_skid_box, 299, 0
 19507, prop_skid_box_07, prop_skid_box, 299, 0
 19508, prop_skid_trolley_1, prop_skid_trolley, 299, 0
