@@ -26,9 +26,7 @@
 More images are <a href="https://ibb.co/album/dPJ7dv">here</a>
 </details>
 
-# Contributors
-
-## Direct Contributors
+## Contributors
 - Aaronre99
 - asmitgta sa
 - Cohex17
