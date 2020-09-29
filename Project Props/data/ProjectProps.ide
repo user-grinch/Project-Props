@@ -131,4 +131,5 @@ objs
 19329, proc_sodacup2, proc_sodacup2, 299, 0
 19330, proc_sodacup2lid, proc_sodacup2, 299, 0
 19331, proc_syrnige, proc_syrnige, 299, 0
+19332, shoesonthewires1, shoesonthewires, 300, 2097152
 end
