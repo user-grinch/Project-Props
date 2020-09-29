@@ -45,11 +45,8 @@ More images are <a href="https://ibb.co/album/dPJ7dv">here</a>
 
 ## Thanks
 
-- DK22Pac
-- LINK/2012
 - methodunderg
 - RegistaG
-- Silent
 - TheNathanNS
 - WindowsExPee
 - Project Sanandreas team
