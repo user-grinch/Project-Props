@@ -1,0 +1,28 @@
+;
+;           Mod Loader Folder Config File
+;
+[Folder.Config]
+Profile = Default                 ; Profile to be used to configure mods
+
+[Profiles.Default.Config]
+IgnoreAllMods  = false            ; Ignores all mods. This essentially disables mods loading.
+ExcludeAllMods = false            ; Excludes all mods from being loaded except the ones at IncludeMods list
+
+[Profiles.Default.Priority]
+; Defines mods priority (which mods should go into effect if both replaces the same file)
+; The priority should be between 1 and 100, where 100 overrides 1, additionally priority 0 makes be ignored (just like IgnoreMods)
+; The default priority is 50!
+;MyMod=50
+
+[Profiles.Default.IgnoreFiles]
+; Put wildcard to files to be ignored here (e.g. cheetah.dff, *.dff, path_in_mod/*.dff)
+
+[Profiles.Default.IgnoreMods]
+; Put wildcard to mods to be ignored here
+_ignore
+
+[Profiles.Default.IncludeMods]
+; Put wildcard to mods to be included in the game even when ExcludeAllMods=true
+
+[Profiles.Default.ExclusiveMods]
+; Put wildcard to mods that should be loaded ONLY on this profile

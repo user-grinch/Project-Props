@@ -9,11 +9,7 @@
 [![MixMods](https://img.shields.io/badge/Topic-Mixmods-%234e4784?style=for-the-badge)](https://forum.mixmods.com.br/f6-mapas-objetos/t181-project-props)
 [![GTAF](https://img.shields.io/badge/Topic-GTA%20Forums-%23244052?style=for-the-badge)](https://gtaforums.com/topic/885393-project-props/)
 
-# Installation
-1. Download & install modloader from [here](https://www.gtagarage.com/mods/show.php?id=25377).
-2. Download (or clone) the repository extract everything inside modloader folder.
-3. Run the 'Build.bat' file.
-3. Done
+Download the latest version from [here](https://github.com/user-grinch/Project-Props/releases) (ProjectProps.zip).
 
 <details>
   <summary>Screenshots</summary>
@@ -25,6 +21,16 @@
   <br/>
 More images are <a href="https://ibb.co/album/dPJ7dv">here</a>
 </details>
+
+## Optional 
+- Weeds: 
+There are about 8k weed placements inside `lae_stream7.ipl`. Remove the file if you 
+don't want them.
+
+- Procobj: 
+There is a custom 'procobj.dat' & 'surfinfo.dat' provided. It adds randomly generated props on some 
+pavements. But there is a bug which causes props to appear on some walls. Move them to the 
+'Project Props' folder to use it.
 
 ## Contributors
 - Aaronre99

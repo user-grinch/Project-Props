@@ -1,5 +1,5 @@
 @echo off
-set workingDir=%CD%\Project Props\
+set workingDir=%CD%\modloader\Project Props\
 
 REM Convert IPL files
 echo Converting IPL files
