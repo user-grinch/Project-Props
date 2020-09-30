@@ -29,7 +29,7 @@ don't want them.
 
 - Procobj: 
 There is a custom 'procobj.dat' & 'surfinfo.dat' provided. It adds randomly generated props on some 
-pavements. But there is a bug which causes props to appear on some walls. Move them to the 
+pavements. But there is a rare bug which causes props to appear on some walls. Shouldn't affect gameplay. Move them to the 
 'Project Props' folder to use it.
 
 ## Contributors
