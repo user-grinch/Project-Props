@@ -1,1 +1,7 @@
 IDE data\ProjectProps.ide
+IPL data\LS\misc.ipl
+IPL data\LS\alpha.ipl
+IPL data\LS\weeds.ipl
+IPL data\LVprops.ipl
+IPL data\SFprops.ipl
+IPL data\CSprops.ipl

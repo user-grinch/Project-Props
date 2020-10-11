@@ -127,5 +127,11 @@ objs
 19329, proc_sodacup2, proc_sodacup2, 125, 0
 19330, proc_sodacup2lid, proc_sodacup2, 125, 0
 19331, proc_syrnige, proc_syrnige, 125, 0
-19332, shoesonthewires1, shoesonthewires, 175, 8192
+19332, shoesonthewires1, shoesonthewires, 175, 8192\
+19333, windmill, windmill1, 299, 0
+19334, manholeLA, manholeLA1, 125, 0
+19335, oilspill1, oilspill, 125, 0
+19336, skid1, crackdrive_sfse, 125, 0
+19337, hydrant_hole, dynhydrent, 150, 0
+19338, cracks2, cracks, 100, 0
 end
