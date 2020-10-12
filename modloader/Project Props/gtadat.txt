@@ -5,3 +5,4 @@ IPL data\LS\weeds.ipl
 IPL data\LVprops.ipl
 IPL data\SFprops.ipl
 IPL data\CSprops.ipl
+COLFILE 0 props\pp.col
