@@ -135,4 +135,5 @@ objs
 19337, hydrant_hole, dynhydrent, 150, 0
 19338, cracks2, cracks, 100, 0
 19339, lightwires, lightwires, 100, 0
+19340, cracks1, eastlstr_lae2, 150, 0
 end
