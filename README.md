@@ -40,7 +40,6 @@ pavements. But there is a rare bug which causes props to appear on some walls. S
 - eagle152
 - Grinch_
 - hlennarz
-- I<3SA
 - Junior-Djjr
 - kkjj
 - Lil Slim C
