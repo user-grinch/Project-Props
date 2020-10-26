@@ -1,0 +1,111 @@
+;
+;
+; Title		:	Object.dat
+; Date		:	03/02/00
+;
+;
+;
+;
+;
+; (A) Object Name				[256 chars max]
+; (B) Mass					[kilograms 1 to 50000]
+; (C) TurnMass					[kg m^3 or some such dimension] 
+; (D) Air Resistance				[scale 0 (total resistance) to 1 (zero resistance)]
+; (E) Elasticity				[scale 0 (no bounce) to 1 (full bounce)]
+; (F) Percent Submerged				[percentage 10 to 120]
+; (G) Uproot Limit				[force magnitude required to uproot]
+; (H) Collision Damage Multiplier		[0.1 - 5.0 ish]
+;
+; (I) Collision Damage Effect		
+;		0:none 
+;		1:change_model
+;		20:smash_completely
+;		21:change_then_smash
+;		200:breakable	
+;		202:breakable then removed	(ie. never regenerated after destroyed)
+;
+; (J) Special Collision Response Cases 	
+;		0:none(default)
+;		1:lampost 
+;		2:smallbox
+;		3:bigbox 
+;		4:fencepart 
+;		5:grenade
+;		6:SWINGDOOR 
+;		7:LOCKDOOR 
+;		8:HANGING 
+;  		9:OB_COL_POOLBALL
+;						     
+; (K) Camera to avoid this object (0) for no (1) for yes
+;
+; (L) Causes Explosion				- if this is no zero then an effect must be specified which is played when this object explodes
+;
+;
+; FX INFO:
+; ========
+;
+; (FX_TYPE)	Type of FxSystem		- 0 - no FxSystem, 1 - play when hit, 2 - play when destroyed, 3 - play when hit or destroyed
+; (FX_OFFSET)	Offset of FxSystem		- offset from the pivot of the object (set x value to -999.0 to play at the point of collision)
+; (FX_NAME)	Name of FxSystem		- needs to be "noname" if FX_TYPE is 0, otherwise must be the name of a valid FxSystem
+;
+;
+;
+; BREAKABLE INFO:
+; ===============
+;
+; (B-SM) 	Smash Multiplier 		- if set to 2.0 then it will take twice the force to smash as opposed to break an object (1.0 - smash only - never break, set very large if it only breaks and never smashes)
+; (B-VX)  	Break Velocity X		- velocity of breakable parts
+; (B-VY)  	Break Velocity Y
+; (B-VZ)  	Break Velocity Z
+; (B-VR)  	Break Velocity Rand 		- velocity randomness factor
+; (B_GUN) 	Gun Break Mode			- 0 - not breakable by gun, 1 - breakable, 2 - smashable
+; (B_SPK) 	Produce Sparks on Impact  	- 0 - no sparks, 1 - sparks produced
+
+
+
+;******************************* these have invalid collision damage effects ********************************************************								
+;																										<----------------- Breakable Info ------------------>
+;Name			Mass		TurnMass	AirResistance	Elasticity	PercSubmerged	Uproot	CDMult	CDEff	SpCDR	CamAv	Expl								 	       needs set if I >= 200														 			       needs set if I >= 200
+;A			B		C		D		E		F		G	H	I	J	K	L	FX_TYPE	FX_OFFSET		FX_NAME			B-SM	B-VX	B-VY	B-VZ	B-VR	B-GUN	B_SPK								
+;
+
+;************project props************
+
+sign_2to1,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			150.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_carwash,		30.0,		50.0   		0.99,		0.05,		50.0,		100.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			115.0, 	0.0, 	50.0, 	0.1, 	0.07,	1,	0
+sign_crosswalk1,	99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			115.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_crosswalk2,	99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_crosswalk3,	99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_curve1,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_curve2,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_hospital,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_left1,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_left2,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_left3,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_litter1,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_litter2,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_noblock,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_noenter,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_nofeed,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_nopark,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_notrucks,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_park,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_pier,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_rail,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_right1,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_right2,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_right3,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_right4,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_speed15,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_speed25,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_speed35,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_speed55,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_speed75,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_speedbump,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_staylane,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_stop,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+sign_tractor,		99999.0,		99999.0   		0.99,		0.05,		50.0,		1000.0,  1.0,	200,	1,	1,	0,	0,	0.0, 0.0, 0.0,		none			50.0, 	0.0, 	0.0, 	0.1, 	0.07,	1,	0
+rub_bike1,		30.0,		100.0		0.99,		0.05,		50.0,		1000.0,	2.0,	0,	0,	1,	0,	0,	0.0, 0.0, 0.0,		none		   
+rub_bike2,		30.0,		100.0		0.99,		0.05,		50.0,		1000.0,	2.0,	0,	0,	1,	0,	0,	0.0, 0.0, 0.0,		none		   
+rub_monitor,		40.0,		100.0		0.99,		0.05,		50.0,		1000.0,	2.0,	0,	0,	1,	0,	0,	0.0, 0.0, 0.0,		none		   
+* ;end of file
