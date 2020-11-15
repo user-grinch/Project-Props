@@ -52,6 +52,7 @@ pavements. But there is a rare bug which causes props to appear on some walls. S
 - [Camil1999](https://camil1999mods-eng.blogspot.com/2015/08/relsa-tossed-shoes.html)
 - methodunderg
 - RegistaG
+- SergeDV 
 - TheNathanNS
 - WindowsExPee
 - Project Sanandreas team
