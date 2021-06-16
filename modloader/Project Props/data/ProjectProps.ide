@@ -136,8 +136,8 @@ objs
 19338, cracks2, cracks, 100, 0
 19339, lightwires, lightwires, 100, 0
 19340, cracks1, eastlstr_lae2, 150, 0
-19341, billboard1, billboard1, 100, 0
-19342, billboard1, billboard1, 150, 0
+19341, billboard1, billboard1, 100, 4
+19342, billboard2, billboard2, 150, 4
 19343, stiltsville1, stiltsville1, 150, 0
 19344, seabedshit1, seabedshit1, 150, 0
 end

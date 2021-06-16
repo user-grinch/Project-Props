@@ -1,3 +1,8 @@
 IDE data\ProjectProps.ide
 
+IPL data\LSprops.ipl
+IPL data\CSprops.ipl
+IPL data\SFprops.ipl
+IPL data\LVprops.ipl
+
 COLFILE 0 props\pp.col
