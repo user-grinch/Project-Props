@@ -22,16 +22,6 @@ Download the latest version from [here](https://github.com/user-grinch/Project-P
 More images are <a href="https://ibb.co/album/dPJ7dv">here</a>
 </details>
 
-## Optional 
-- Weeds: 
-There are about 8k weed placements inside `lae_stream7.ipl`. Remove the file if you 
-don't want them.
-
-- Procobj: 
-There is a custom 'procobj.dat' & 'surfinfo.dat' provided. It adds randomly generated props on some 
-pavements. But there is a rare bug which causes props to appear on some walls. Shouldn't affect gameplay. Move them to the 
-'Project Props' folder to use it.
-
 ## Contributors
 - Aaronre99
 - asmitgta sa
