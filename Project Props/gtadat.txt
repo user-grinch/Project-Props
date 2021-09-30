@@ -5,4 +5,8 @@ IPL data\CSprops.ipl
 IPL data\SFprops.ipl
 IPL data\LVprops.ipl
 
+# Enable weeds if you want them
+# Might decrease FPS, even 30 or more sometimes
+#IPL data\weeds.ipl
+
 COLFILE 0 props\pp.col

@@ -10,7 +10,7 @@ objs
 19208, sign_speed35, ppsigns, 150, 0
 19209, sign_noblock, ppsigns, 150, 0
 19210, sign_notrucks, ppsigns, 150, 0
-19211, sign_2to1, ppsigns, 150, 0
+19211, sign_two_one, ppsigns, 150, 0
 19212, sign_crosswalk1, ppsigns, 150, 0
 19213, sign_nofeed, ppsigns, 150, 0
 19214, sign_rail, ppsigns, 150, 0
@@ -140,4 +140,5 @@ objs
 19342, billboard2, billboard2, 150, 4
 19343, stiltsville1, stiltsville1, 150, 0
 19344, seabedshit1, seabedshit1, 150, 0
+19345, crosswalk, ppsigns, 299, 4
 end
