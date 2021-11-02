@@ -5,7 +5,10 @@
 
 #
 
-Download the latest version from [here](https://github.com/user-grinch/Project-Props/releases) (ProjectProps.zip). Copy everything from `objdata.txt` and paste them inside `data/object.dat` file. (Don't use modloader).
+# Installation
+1. Download the latest version from [here](https://github.com/user-grinch/Project-Props/) 
+2. Copy everything to your game root directory
+3. Run the Install ProjectProps.bat file
 
 <details>
   <summary>Screenshots</summary>

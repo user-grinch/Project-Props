@@ -1,0 +1,2 @@
+IDE files/ProjectProps.ide
+IMG files/ProjectProps.img
