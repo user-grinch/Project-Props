@@ -5,11 +5,7 @@
 
 #
 
-![GitHub repo size](https://img.shields.io/github/repo-size/user-grinch/Project-Props?label=Size&style=for-the-badge)
-[![MixMods](https://img.shields.io/badge/Topic-Mixmods-%234e4784?style=for-the-badge)](https://forum.mixmods.com.br/f6-mapas-objetos/t181-project-props)
-[![GTAF](https://img.shields.io/badge/Topic-GTA%20Forums-%23244052?style=for-the-badge)](https://gtaforums.com/topic/885393-project-props/)
-
-Download the latest version from [here](https://github.com/user-grinch/Project-Props/releases) (ProjectProps.zip).
+Download the latest version from [here](https://github.com/user-grinch/Project-Props/releases) (ProjectProps.zip). Copy everything from `objdata.txt` and paste them inside `data/object.dat` file. (Don't use modloader).
 
 <details>
   <summary>Screenshots</summary>
