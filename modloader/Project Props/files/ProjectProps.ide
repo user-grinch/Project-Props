@@ -183,6 +183,20 @@ objs
 19375, lvtuncrac02, grafs01, 125, 8
 19376, lvtuncrac03, grafs01, 125, 8
 
-
 19377, exhausters, exh1, 200, 128
+
+19378, wireball, wireball, 150, 0
+19379, air_conelight, air_conelight, 299, 0
+19380, medicplate, medicplate, 299, 0
+19381, air_conelight_d, air_conelight, 299, 0
+19382, carparkblock, carparkblock, 299, 0
+19383, carparkblock2, carparkblock, 299, 0
+19384, sign_ammu, ammusign, 299, 0
+19385, sign_exitpark, exitpark, 299, 0
+19386, sign_upleft, newsigns, 299, 0
+19387, sign_upright, newsigns, 299, 0
+19388, sign_mountain, newsigns, 299, 0
+19389, sign_exitonly, newsigns, 299, 0
+19390, sign_left4, ppsigns, 150, 0
+19391, sign_speed60, ppsigns, 150, 0
 end
