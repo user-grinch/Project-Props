@@ -3,7 +3,11 @@
   <img width="400" height="250" src="https://i.ibb.co/xHsMTYZ/Project-Props.png">
 </p>
 
-#
+# Bug reports
+Report bugs here, 
+- [GitHub Issues](https://github.com/user-grinch/Project-Props/issues) (Reommended)
+- [Discord Server](https://discord.com/invite/ZzW7kmf)
+- [GTA Forums](https://gtaforums.com/topic/885393-project-props/)
 
 # Installation
 1. Download the latest version from [here](https://github.com/user-grinch/Project-Props/) 
