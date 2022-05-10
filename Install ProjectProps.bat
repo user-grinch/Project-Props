@@ -3,6 +3,34 @@ set workingDir=%CD%\modloader\Project Props\
 echo Props Props Installer
 echo ---------------------
 echo.
+echo Installation Methods:
+echo 1. Default Installation
+echo 2. With Weeds and ProcObjs (Impacts performance)
+echo 3. With Weeds only (Impacts performance)
+echo 4. With ProcObjs only
+ 
+echo.
+echo Weeds 	= Small trees, grasses etc.
+echo ProcObj = Objects placed randomly on roads and pavements. But gets bugged sometimes and appear on walls too!
+echo.
+echo.
+choice  /C 1234 /M "Select an installation method."
+echo test
+
+if "%ERRORLEVEL%"=="2" (
+	MOVE /Y "%CD%\optional\lae_stream7.ipl" "%workingDir%ipl_src\"
+	MOVE /Y "%CD%\optional\procobj.dat" "%workingDir%"
+	MOVE /Y "%CD%\optional\surfinfo.dat" "%workingDir%"
+	pause
+)
+if "%ERRORLEVEL%"=="3" (
+	MOVE /Y "%CD%\optional\lae_stream7.ipl" "%workingDir%ipl_src\"
+)
+if "%ERRORLEVEL%"=="4" (
+	MOVE /Y "%CD%\optional\procobj.dat" "%workingDir%"
+	MOVE /Y "%CD%\optional\surfinfo.dat" "%workingDir%"
+)
+
 echo ---------------------------------
 echo Converting IPLs (Text to Binary):
 echo ---------------------------------
