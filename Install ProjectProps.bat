@@ -25,9 +25,9 @@ echo Clearning up...
 echo.
 @RD /S /Q "%workingDir%\ipl_src\"
 @RD /S /Q "%workingDir%\img_src\"
-@DEL /S /Q "%workingDir%\ProjectProps.img.txt"
 @RD /S /Q "%CD%\tools\"
 @DEL /S /Q "%CD%\README.md"
+@DEL /S /Q "%workingDir%\ProjectProps.img.txt"
 @DEL /S /Q "%CD%\Install ProjectProps.bat
 echo Installation Complete  
 pause
