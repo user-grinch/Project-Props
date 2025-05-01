@@ -1,8 +1,2 @@
-IDE data/maps/ProjectProps.ide
-IPL data/maps/countryspp1.ipl
-IPL data/maps/laepp1.ipl
-IPL data/maps/sfspp1.ipl
-IPL data/maps/vgswpp1.ipl
-IPL data/maps/weeds1.ipl
-IPL data/maps/weeds2.ipl
-IPL data/maps/2dgroundobjects.ipl
+IDE data\maps\ProjectProps.ide
+IMG MODELS\projectprops.img
