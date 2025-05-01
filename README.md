@@ -41,6 +41,8 @@ More images are <a href="https://ibb.co/album/dPJ7dv">here</a>
 - Weeamer
 - Tk armakar
 - Zeneric
+- KaiQ
+- Catchy
 
 ## Thanks
 - [Camil1999](https://camil1999mods-eng.blogspot.com/2015/08/relsa-tossed-shoes.html)
