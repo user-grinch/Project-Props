@@ -1,2 +1,2 @@
 IDE data\maps\ProjectProps.ide
-IMG MODELS\projectprops.img
+IMG data\maps\ProjectProps.img
