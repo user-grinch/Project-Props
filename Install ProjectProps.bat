@@ -1,6 +1,42 @@
 @echo off
 set workingDir=%CD%\modloader\Project Props\
 echo Props Props Installer
+echo ---------------------
+echo.
+echo Installation Methods:
+echo 1. Weeds / 2dGroundObjects / ProcObj
+echo 2. Weeds / 2dGroundobjects
+echo 3. ProcObj only
+echo 4. None of the Above (Mininal Installation)
+ 
+echo.
+echo Weeds = Plants.
+echo 2dGroundObjects = manholes, litters, oilspills, etc.
+echo ProcObj = Objects placed randomly on roads and pavements.
+echo.
+echo.
+choice  /C 1234 /M "Select an installation method."
+
+if "%ERRORLEVEL%"=="1" (
+	MOVE /Y "%CD%\optional\lae_stream7.ipl" "%workingDir%ipl_src\"
+	MOVE /Y "%CD%\optional\lae_stream9.ipl" "%workingDir%ipl_src\"
+	MOVE /Y "%CD%\optional\procobj.dat" "%workingDir%"
+	MOVE /Y "%CD%\optional\surfinfo.dat" "%workingDir%"
+	@DEL /S /Q "%workingDir%\ipl_src\lae_stream8.ipl"
+)
+if "%ERRORLEVEL%"=="2" (
+	MOVE /Y "%CD%\optional\lae_stream7.ipl" "%workingDir%ipl_src\"
+	MOVE /Y "%CD%\optional\lae_stream9.ipl" "%workingDir%ipl_src\"
+	@DEL /S /Q "%workingDir%\ipl_src\lae_stream8.ipl"
+)
+if "%ERRORLEVEL%"=="3" (
+	MOVE /Y "%CD%\optional\procobj.dat" "%workingDir%"
+	MOVE /Y "%CD%\optional\surfinfo.dat" "%workingDir%"
+	@DEL /S /Q "%workingDir%\ipl_src\lae_stream8.ipl"
+)
+if "%ERRORLEVEL%"=="4" (
+	@DEL /S /Q "%workingDir%\ipl_src\lae_stream8.ipl"
+)
 
 echo ---------------------------------
 echo Converting IPLs (Text to Binary):
@@ -25,9 +61,10 @@ echo Clearning up...
 echo.
 @RD /S /Q "%workingDir%\ipl_src\"
 @RD /S /Q "%workingDir%\img_src\"
+@RD /S /Q "%CD%\optional\"
 @RD /S /Q "%CD%\tools\"
 @DEL /S /Q "%CD%\README.md"
 @DEL /S /Q "%workingDir%\ProjectProps.img.txt"
-@DEL /S /Q "%CD%\Install ProjectProps.bat
+@DEL /S /Q "%CD%\Install ProjectProps.bat"
 echo Installation Complete  
 pause
