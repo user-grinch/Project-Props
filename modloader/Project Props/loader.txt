@@ -1,2 +1,2 @@
 IDE data/maps/ProjectProps.ide
-IMG data/maps/ProjectProps.img
+IMG data/maps/projectprops.img
