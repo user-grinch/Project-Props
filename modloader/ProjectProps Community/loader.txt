@@ -3,4 +3,6 @@ IPL data/maps/weeds.ipl
 IPL data/maps/sflighthouse.ipl
 IPL data/maps/og23.ipl
 IPL data/maps/og22.ipl
+IPL data/maps/newprops22.ipl
+IPL data/maps/newprops23.ipl
 COLFILE 0 data/maps/Pp.col
