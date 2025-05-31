@@ -1,2 +1,0 @@
-IDE data/maps/ProjectProps.ide
-IMG data/maps/projectprops.img

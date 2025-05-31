@@ -1,0 +1,5 @@
+IDE data/maps/ProjectProps.ide
+IPL data/maps/lae_stream9.ipl
+IPL data/maps/lae_stream8.ipl
+IPL data/maps/lae_stream7.ipl
+COLFILE 0 data/maps/Pp.col
