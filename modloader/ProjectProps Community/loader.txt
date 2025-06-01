@@ -1,8 +1,20 @@
-IDE data/maps/ProjectProps.ide
-IPL data/maps/weeds.ipl
-IPL data/maps/sflighthouse.ipl
+#Project Props 
 IPL data/maps/og23.ipl
 IPL data/maps/og22.ipl
+
+#Project Props Added objects ID > 19200
 IPL data/maps/newprops22.ipl
 IPL data/maps/newprops23.ipl
+IPL data/maps/weeds.ipl
+
+#Base for the new added objects
 COLFILE 0 data/maps/Pp.col
+IDE data/maps/ProjectProps.ide
+
+#Community Mapping 
+IPL data/maps/drugpark.ipl
+IPL data/maps/sflighthouse.ipl
+
+
+
+
