@@ -14,6 +14,7 @@ IDE data/maps/ProjectProps.ide
 #Community Mapping 
 IPL data/maps/drugpark.ipl
 IPL data/maps/sflighthouse.ipl
+IPL data/maps/objectopia.ipl
 
 
 
