@@ -3,13 +3,13 @@
 **Repository:** [Project Props - Community Open](https://github.com/user-grinch/Project-Props/tree/community-open)
 
 Welcome to the **Community RC1** release of **Project Props**!  
-This build is based on the last version by **Zeneric**, now enhanced with [FastLoader](https://github.com/user-grinch/FastLoader) for full **open file structure** support — making it completely community-editable and modular.
+This build is based on the last 'community' branch by **Zeneric**, now enhanced with [FastLoader](https://github.com/user-grinch/FastLoader) for full **open file structure** support — making it completely community-editable and modular.
 
 ✅ **Breakable objects still work**  
 ✅ **Text-based IPLs are back**  
 ✅ **No crashes with other .dat mods** (e.g. Proper Fixes, Combat FX Update, etc.)
 
-Thanks to FastLoader, this version avoids the usual conflicts with other `.dat`-modifying ASI plugins. You’re free to expand and combine this with other community projects — without breaking the game.
+Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader), this version avoids the usual conflicts with other `.dat`-modifying mods.
 
 
 <p align="center">
