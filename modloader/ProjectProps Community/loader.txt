@@ -7,6 +7,7 @@ IPL data/maps/newprops22.ipl
 IPL data/maps/newprops23.ipl
 IPL data/maps/weeds.ipl
 
+
 #Base for the new added objects
 COLFILE 0 data/maps/Pp.col
 IDE data/maps/ProjectProps.ide
@@ -15,6 +16,7 @@ IDE data/maps/ProjectProps.ide
 IPL data/maps/drugpark.ipl
 IPL data/maps/sflighthouse.ipl
 IPL data/maps/objectopia.ipl
+IPL data/maps/james.ipl
 
 
 
