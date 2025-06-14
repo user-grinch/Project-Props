@@ -10,8 +10,8 @@
 
 - Supports **breakable objects**
 - **Text-based IPLs** are back
-- No crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
-- Thanks to FastLoader – **safe ModLoader compatibility**
+- Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader) no crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/204bb565-5bde-4819-9d92-94c1fb7cf329" alt="Project Props Community RC1" />
@@ -22,8 +22,8 @@
 ## ✨ What’s New?
 
 - ✅ All content from version **2.3** restored
-- ✅ Includes **never-published assets** from the original repo
-- ✅ All `.ipl` files from **v2.2** remain untouched — fully compatible with Community Fixes
+- ✅ Includes **never-published assets** from the original Grinch's repository 
+- ✅ All `.ipl` files from **v2.2** remain untouched — fully compatible with [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html)
 - ✅ Fully compatible with **Urbanize!**
 - ✅ No crashes reported during testing
 
@@ -31,20 +31,18 @@
 
 ## 🔧 Additions & Fixes
 
-- ✔ Added missing **textures** for new props
+- ✔ Added missing **textures** for never published new props
 - ✔ Fixed **positioning** for several models
 - ✔ Updated `ProjectProps.ini` to work with `ProjectProps.asi` (includes lampposts, hydrants)
-- ✔ **Weeds** optimized by @.zeneric
-- ✔ Disabled select **rubbish props** added by Grinch (original SA rubbish remains intact)  
-  → Goal: migrate those to `procobj.dat` for better dynamic loading
+- ✔ **Weeds** optimized by @.zeneric - thousand of automaticly generated weeds models are now merged into batches, to optimise memory usage 
+- ✔ Disabled **rubbish props** added by Grinch (original SA rubbish remains intact)  → Goal: migrate those to `procobj.dat` for better dynamic loading
 
- 
 
 ## 📦 Included Projects (With Permission)
 
 This release **merges content from the following mods**, with full permission from their original authors:
 
-- 🔗 [Objectopia v1.4.0 (WIP)](https://forum.mixmods.com.br/f6-mapas-objetos/t8549-sa-wip-objectopia-v1-4-0?sid=cc4bd3d576bf30378ef8b398995cbf0a)
+- 🔗 [Mixsylent's Objectopia v1.4.0](https://forum.mixmods.com.br/f6-mapas-objetos/t8549-sa-wip-objectopia-v1-4-0?sid=cc4bd3d576bf30378ef8b398995cbf0a) 
 - 🔗 *Lando Props* – featuring:  
   - Easter Basin Naval Station (SF)  
   - Simple Beach (LS)
