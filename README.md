@@ -3,7 +3,7 @@
 **Repository:** [Project Props - Community Open](https://github.com/user-grinch/Project-Props/tree/community-open)
 
 Welcome to the **Community RC1** release of **Project Props**!  
-This build is based on the last legendary version by **Zen**, now enhanced with [FastLoader](https://github.com/user-grinch/FastLoader) for full **open file structure** support — making it completely community-editable and modular.
+This build is based on the last version by **Zeneric**, now enhanced with [FastLoader](https://github.com/user-grinch/FastLoader) for full **open file structure** support — making it completely community-editable and modular.
 
 ✅ **Breakable objects still work**  
 ✅ **Text-based IPLs are back**  
