@@ -67,9 +67,10 @@ All merging was performed using a **custom toolchain**:
 
 ## 🔍 Stability & Legacy Bugs
 
-- Many **bugs in the original Project Props 2.2** were never fixed
+- Project Props 2.2 was originally published with many postioning bugs that were never fixed, it will take some time
 - The **base game (San Andreas)** still has map-related issues that even Proper Fixes doesn’t address
-- We manually fix or optimize problematic areas on a rolling basis
+- With the Urbanize there are over 30 000 (!) added props to the game, so besides after many hours of work, some bugs are present 
+- We manually fix or optimize problematic areas on a rolling basis, everything will be fixed 
 
  
 
