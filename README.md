@@ -4,6 +4,7 @@
 
 Welcome to the **Community RC1** release of Project Props!  
 This build is based on the last amazing version by **Zen**, but now includes [FastLoader](https://github.com/user-grinch/FastLoader), allowing full support for an **open file structure** — making it community-friendly and editable. Breakable objects still work. And yes: **Text IPLs are back**!
+Thank to FastLoader it won't crash with other .dat mods like Proper Fixes, Combat FX Update etc.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/204bb565-5bde-4819-9d92-94c1fb7cf329" alt="ppc" />
