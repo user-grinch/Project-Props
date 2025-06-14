@@ -91,7 +91,7 @@ Planned improvements:
 To ensure **full compatibility with Urbanize**, you **must disable the mailbox IPL**:
 
 > Open the file:  
-> `Urbanize/Loader.txt`  
+> `Urbanize/Map/Loader.txt`  
 > and comment out the following line by adding a `#` at the start:
 
 ```txt
