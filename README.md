@@ -5,8 +5,8 @@
 > **Community RC1** is the latest public release of **Project Props**, based on the final community branch by **Zeneric** — now enhanced with [FastLoader](https://github.com/user-grinch/FastLoader) for full **open file structure** support. This makes the mod fully editable, stable, and compatible with other mods.
 
 ## You need:
-[Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases)
-[FastLoader](https://github.com/user-grinch/FastLoader/releases/tag/v1.0.0) which is already included and it was created specially for Project Props 3 purpose
+- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - default settings
+- [FastLoader](https://github.com/user-grinch/FastLoader/releases/tag/v1.0.0) which is already included and it was created specially for Project Props 3 purpose
 
 ## ✅ Key Features
 
