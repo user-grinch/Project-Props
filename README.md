@@ -6,7 +6,7 @@
 
 ## You need:
 - [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - default settings
-- [FastLoader](https://github.com/user-grinch/FastLoader/releases/tag/v1.0.0) which is already included and it was created specially for Project Props 3 purpose
+- [FastLoader](https://github.com/user-grinch/FastLoader/releases/tag/v1.0.0) - which is already included as it was created specially for Project Props 3 purpose
 
 ## ✅ Key Features
 
