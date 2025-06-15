@@ -17,7 +17,6 @@ IPL data/maps/reaper.ipl
 IPL data/maps/sflighthouse.ipl
 IPL data/maps/objectopia.ipl
 IPL data/maps/james.ipl
-IPL data/maps/landof_lod.ipl
 IPL data/maps/landof.ipl
 
 
