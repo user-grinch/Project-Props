@@ -18,6 +18,7 @@ IPL data/maps/sflighthouse.ipl
 IPL data/maps/objectopia.ipl
 IPL data/maps/james.ipl
 IPL data/maps/landof.ipl
+IPL data/maps/BetterWorkingConditions
 
 
 
