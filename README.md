@@ -25,7 +25,7 @@
 
 - ✅ All content from version **2.3** restored
 - ✅ Includes **never-published assets** from the original Grinch's repository 
-- ✅ All `.ipl` files from **v2.2** remain untouched — fully compatible with [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html)
+- ✅ All [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html) included
 - ✅ Fully compatible with **Urbanize!**
 - ✅ No crashes reported during testing
 
