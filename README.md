@@ -8,6 +8,9 @@
 - [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - default settings
 - [FastLoader](https://github.com/user-grinch/FastLoader/releases/tag/v1.0.0) - which is already included as it was created specially for Project Props 3 purpose
 
+OPTIONAL:
+- [fastman92 limit adjuster](https://www.mixmods.com.br/2022/01/fastman92-limit-adjuster/) If you use other object.dat mods, you might need Fastaman Limit Adjuster limit set to ```Object info entries = 200```
+
 ## ✅ Key Features
 
 - Supports **breakable objects**
