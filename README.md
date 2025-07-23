@@ -102,10 +102,16 @@ and comment out the following line by adding a `#` at the start:
 #IPL data\maps\Urbanize - Mails.ipl
 ```
 
-📌 *This prevents overlapping mailbox props and visual glitches.*  
+📌 *This prevents overlapping mailbox props.*  
 We may automate this step in a future update.
 
- 
+ ### ⚠️ Project 2dfx Compatibility Note
+
+For **Project 2dfx** disable loading of all binary IPLs :
+`LoadAllBinaryIPLs = 0`
+
+This setting forces the game to load *all* IPL files at once, which can exceed internal engine limits for object instances.  
+🧠 The issue is not with the IPL content itself, but with the **total number of objects loaded into memory**.
 
 ### 🛠️ How to Contribute (Add Your Own Props!)
 
