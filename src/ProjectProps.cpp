@@ -27,16 +27,6 @@ ProjectProps::ProjectProps()
 			}
 
 			ini.GetAllSections(sections);
-
-			// Object.dat loader
-			if (std::filesystem::exists("ProjectProps.dat"))
-			{
-				Call<0x5B5360>("ProjectProps.dat");
-			}
-			else
-			{
-				LOG("ProjectProps.dat not found.");
-			}
 			bInit = false;
 		}
 
