@@ -109,8 +109,13 @@ We may automate this step in a future update.
 
 For **Project 2dfx** disable loading of all binary IPLs :
 `LoadAllBinaryIPLs = 0`
-
 This setting forces the game to load *all* IPL files at once, which can exceed internal engine limits for object instances.  
+
+Also set Geberic Objects Draw Distance to 1.0, any increase of this value makes many props to spawn double in the same place    
+
+`GenericObjectsDrawDistance = 1.0`
+
+
 🧠 The issue is not with the IPL content itself, but with the **total number of objects loaded into memory**.
 
 ### 🛠️ How to Contribute (Add Your Own Props!)
