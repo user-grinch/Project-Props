@@ -1,10 +1,8 @@
 #Project Props 
-IPL data/maps/og23.ipl
-IPL data/maps/og22.ipl
+IPL data/maps/ogprops.ipl
 
 #Project Props Added objects ID > 19200
-IPL data/maps/newprops22.ipl
-IPL data/maps/newprops23.ipl
+IPL data/maps/addedprops.ipl
 IPL data/maps/weeds.ipl
 
 
