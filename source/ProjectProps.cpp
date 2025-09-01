@@ -65,7 +65,7 @@ void ProjectProps::ProcessDynamicObject(CObject* pObj)
 					if (xdata.m_bShown)
 					{
 						if ((pObj->m_nObjectFlags.bIsBroken == 0 && bVisibleFlag == VISIBLE_BROKEN)
-							|| (pObj->m_nPhysicalFlags.bOnSolidSurface == 0 && bVisibleFlag == VISIBLE_LIFTED))
+							|| (pObj->bOnSolidSurface == 0 && bVisibleFlag == VISIBLE_LIFTED))
 						{
 							if (xdata.m_pEntity != NULL)
 							{
@@ -77,7 +77,7 @@ void ProjectProps::ProcessDynamicObject(CObject* pObj)
 					else
 					{
 						if ((pObj->m_nObjectFlags.bIsBroken == 1 && bVisibleFlag == VISIBLE_BROKEN)
-							|| (pObj->m_nPhysicalFlags.bOnSolidSurface == 1 && bVisibleFlag == VISIBLE_LIFTED))
+							|| (pObj->bOnSolidSurface == 1 && bVisibleFlag == VISIBLE_LIFTED))
 						{
 							if (xdata.m_pEntity != NULL)
 							{
@@ -98,7 +98,7 @@ void ProjectProps::ProcessDynamicObject(CObject* pObj)
 				float rotation = std::stof(ini.GetValue(it->pItem, "rot", "0.0"));
 				int chance = 100 / std::stoi(ini.GetValue(it->pItem, "chance", "100"));
 
-				int magic_num = rand() % (chance + 1 - 1) + 1;
+				int magic_num = rand() % (chance + 1);
 
 				if (magic_num != 1 || requestModel == -1) // random value
 				{
@@ -106,8 +106,12 @@ void ProjectProps::ProcessDynamicObject(CObject* pObj)
 					continue;
 				}
 
-				CStreaming::RequestModel(requestModel, eStreamingFlags::GAME_REQUIRED);
-				CStreaming::LoadAllRequestedModels(false);
+				CStreaming::RequestModel(requestModel, eStreamingFlags::PRIORITY_REQUEST);
+				CStreaming::LoadAllRequestedModels(true);
+
+				if (CStreaming::ms_aInfoForModel[requestModel].m_nLoadState != eStreamingLoadState::LOADSTATE_LOADED) {
+					continue;
+				}
 
 				xdata.m_pEntity = CObject::Create(requestModel);
 				CObject::PlacePhysicalRelativeToOtherPhysical(pObj, (CObject*)xdata.m_pEntity, CVector(offsetX, offsetY, offsetZ));
