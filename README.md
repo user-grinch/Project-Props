@@ -70,15 +70,14 @@ LoadAllBinaryIPLs = 0
 
 This setting normally forces the game to load *all* IPL files at once, which can exceed the engine’s internal limits for object instances.
 
-### ❌ Known Issue: Object Limits
-There **is** a hard limit. After tens of thousands of props (not counted precisely yet), the game starts duplicating objects.  
+Potential Bugs: After tens of thousands of props (not counted precisely yet), the game starts duplicating objects.  
 
 When combining **Urbanize + Improved Vegetation Distance + Project Props Community**, increasing values in the `[IDE Tweaker]` section causes props to spawn **twice in the same spot** (especially noticeable with breakables like lampposts, fences, etc.).
 
 👉 Don’t worry — the game doesn’t crash (though honestly, it feels like it should).
 
 ### ✅ The Key is Balance
-- **More draw distance in Project2dfx = fewer props you can safely load** in `.ipl` files without triggering duplicates.  
+- **More draw distance in Project2dfx (only IDE Tweaker) = fewer props you can safely load** in `.ipl` files without triggering duplicates.  
 - Everyone needs to find their own **sweet spot** between:
   - total prop count  
   - extended draw distance  
