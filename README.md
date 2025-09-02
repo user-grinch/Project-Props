@@ -132,7 +132,7 @@ Special thanks to:
 - **James Harlet** — mapping  
 - **LandoF** — mapping  
 - **Matslick** — coordination, research  
-- **CatchyKetchup, KaiQ** — 2.2 Fixes  
+- **CatchyKetchup, KaiQ, Davve95** — 2.2 Fixes  
 
 
 ## 💬 *Enjoy modding and keep breaking stuff — responsibly.*
