@@ -130,7 +130,9 @@ Special thanks to:
 - **Reaper** — mapping, creative director  
 - **James Harlet** — mapping  
 - **LandoF** — mapping  
-- **Matslick** — coordination, research  
+- **Matslick** — coordination, research
+- **mixsylent** - for Objectopia 
+- **lanldsd** - for Vegetation  
 - **CatchyKetchup, KaiQ, Davve95** — 2.2 Fixes  
 
 
