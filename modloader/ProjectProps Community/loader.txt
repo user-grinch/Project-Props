@@ -1,53 +1,49 @@
-#Project Props 
-IPL data/maps/Project Props - AirConds.ipl
-IPL data/maps/Project Props - Barriers.ipl
-IPL data/maps/Project Props - Benches.ipl
-IPL data/maps/Project Props - Bins.ipl
-IPL data/maps/Project Props - Boxes.ipl
-IPL data/maps/Project Props - Chairs.ipl
-IPL data/maps/Project Props - Electrical.ipl
-IPL data/maps/Project Props - Fences.ipl
-IPL data/maps/Project Props - Food.ipl
-IPL data/maps/Project Props - Garbage Bags1.ipl
-#IPL data/maps/Project Props - Garbage Bags2.ipl
-#IPL data/maps/Project Props - Garbage Bags3.ipl
-#IPL data/maps/Project Props - Hydrants.ipl
-IPL data/maps/Project Props - Industrial.ipl
-IPL data/maps/Project Props - Lamp posts.ipl
-IPL data/maps/Project Props - Lights.ipl
-#IPL data/maps/Project Props - Mails.ipl
-IPL data/maps/Project Props - Parking Meters.ipl
-IPL data/maps/Project Props - Phone.ipl
+#Project Props Base
+IPL data/maps/Project Props.ipl
 IPL data/maps/Project Props - Plants1.ipl
 #IPL data/maps/Project Props - Plants2.ipl
 #IPL data/maps/Project Props - Plants3.ipl
-IPL data/maps/Project Props - Roofs.ipl
-IPL data/maps/Project Props - Rubbish.ipl
-IPL data/maps/Project Props - Signs.ipl
-IPL data/maps/Project Props - Transport.ipl
+IPL data/maps/Project Props - Phone.ipl
+IPL data/maps/Project Props - Parking Meters.ipl
+#IPL data/maps/Project Props - Mails.ipl
+IPL data/maps/Project Props - Lights.ipl
+IPL data/maps/Project Props - Lamp posts.ipl
+IPL data/maps/Project Props - Industrial.ipl
+#IPL data/maps/Project Props - Hydrants.ipl
+IPL data/maps/Project Props - Garbage Bags1.ipl
+#IPL data/maps/Project Props - Garbage Bags2.ipl
+#IPL data/maps/Project Props - Garbage Bags3.ipl
+IPL data/maps/Project Props - Food.ipl
+IPL data/maps/Project Props - Fences.ipl
+IPL data/maps/Project Props - Electrical.ipl
+IPL data/maps/Project Props - Chairs.ipl
+IPL data/maps/Project Props - Boxes.ipl
+IPL data/maps/Project Props - Bins.ipl
+IPL data/maps/Project Props - Benches.ipl
+IPL data/maps/Project Props - Barriers.ipl
+IPL data/maps/Project Props - AirConds.ipl
 IPL data/maps/Project Props - Vases.ipl
-IPL data/maps/Project Props.ipl
-
-#Project Props Added objects ID > 19200
-IPL data/maps/addedprops.ipl
-IPL data/maps/weeds.ipl
-
-
-#Base for the new added objects
-COLFILE 0 data/maps/Pp.col
-IDE data/maps/ProjectProps.ide
+IPL data/maps/Project Props - Transport.ipl
+IPL data/maps/Project Props - Signs.ipl
+IPL data/maps/Project Props - Rubbish.ipl
+IPL data/maps/Project Props - Roofs.ipl
 
 #Community Mapping 
-IPL data/maps/reaper.ipl
-IPL data/maps/sflighthouse.ipl
-IPL data/maps/james.ipl
-IPL data/maps/landof_EasterBasinNavalStation.ipl
-IPL data/maps/landof_buoys.ipl
-IPL data/maps/landof_BetterWorkingConditions.ipl
-IPL data/maps/landof_SimpleBeach.ipl
-#IPL data/maps/lanldsd_Vegetation.ipl
-IPL data/maps/james2.ipl
+IPL data/maps/Landof- Easter Basin Naval Station.ipl
+IPL data/maps/Landof - Simple Beach.ipl
+IPL data/maps/Landof - Buoys.ipl
+IPL data/maps/Landof - BetterWorkingConditions.ipl
+IPL data/maps/James Harlet - LS Stadium Faire.ipl
+IPL data/maps/James Harlet - El Quebrados.ipl
+IPL data/maps/Reaper - Breaking Bad Cooking Camp.ipl
+IPL data/maps/Community - San Fierro Light House.ipl
+#IPL data/maps/Lanldsd - More Vegetation.ipl
 
+#Project Props Added Objects
+IPL data/maps/Project Props - New Props.ipl
+IPL data/maps/Project Props - Weeds.ipl
+IDE data/models/ProjectProps.ide
+COLFILE 0 data/models/ProjectProps.col
 
 
 
