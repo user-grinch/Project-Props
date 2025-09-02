@@ -1,4 +1,4 @@
-# Project Props – Community RC1
+# Project Props 3 Community
 
 **Repository:** [Project Props – Community Open](https://github.com/user-grinch/Project-Props/tree/community-open)
 
@@ -54,7 +54,40 @@ This release **merges content from the following mods**, with full permission fr
 - 🔗 [James's Props – Improved Map Environment](https://libertycity.net/files/gta-san-andreas/209720-jamess-props-improved-map-environment.html)
 - 🔗 *Reaper’s Camp* – a **Breaking Bad-inspired** trailer site with realistic detailing
 
- 
+### ⚠️ Urbanize Compatibility Note
+
+In the .settings folder you can find two configurations.
+If you prefere Urbanize Mailboxes, Hydrants and Parking Meters - Use loader.txt from 'Urbanize over Project Props' folder 
+If you want the best experience use default settings and disable Urbanize Mailboxes, Hydrants and Parking Meters in the modloader/Urbanize/Map/Loader.txt
+
+### ⚠️ Project 2dfx Compatibility Note
+
+For **Project 2dfx**, make sure to **disable loading of all binary IPLs**:
+
+```ini
+LoadAllBinaryIPLs = 0
+```
+
+This setting normally forces the game to load *all* IPL files at once, which can exceed the engine’s internal limits for object instances.
+
+### ❌ Known Issue: Object Limits
+There **is** a hard limit. After tens of thousands of props (not counted precisely yet), the game starts duplicating objects.  
+
+When combining **Urbanize + Improved Vegetation Distance + Project Props Community**, increasing values in the `[IDE Tweaker]` section causes props to spawn **twice in the same spot** (especially noticeable with breakables like lampposts, fences, etc.).
+
+👉 Don’t worry — the game doesn’t crash (though honestly, it feels like it should).
+
+### ✅ The Key is Balance
+- **More draw distance in Project2dfx = fewer props you can safely load** in `.ipl` files without triggering duplicates.  
+- Everyone needs to find their own **sweet spot** between:
+  - total prop count  
+  - extended draw distance  
+
+By default, **Project Props Community** ships with settings that leave some spare headroom for additional objects.  
+For even more props, check out our `loader.txt`.
+
+
+🧠 The issue is not with the IPL content itself, but with the **total number of objects loaded into memory**. 
 
 ## ⚙️ About Merging
 
@@ -68,55 +101,6 @@ All merging was performed using a **custom toolchain**:
     Include a **screenshot** and **exact XYZ coordinates**  
     → We patch bugs **quickly and consistently**
 
- 
-
-## 🔍 Stability & Legacy Bugs
-
-- Project Props 2.2 was originally published with many postioning bugs that were never fixed, it will take some time
-- The **base game (San Andreas)** still has map-related issues that even Proper Fixes doesn’t address
-- With the Urbanize there are over 30 000 (!) added props to the game, so besides after many hours of work, some minor bugs are present
-- We manually fix or optimize problematic props on a rolling basis, everything will be fixed 
-
- 
-
-## 🧪 What’s Next?
-
-Planned improvements:
-
-- 🔄 **Fully proceduralize all rubbish objects** (move to `procobj.dat`)  
-  → better performance, compatibility & dynamic spawning
-- 🔧 **Ongoing compatibility updates with [Urbanize](https://github.com/)**  
-  → we actively test and patch for smooth co-existence
-
- 
-
-### ⚠️ Urbanize Compatibility Note
-
-To ensure **full compatibility with Urbanize**, you **must disable the mailbox IPL**:
-
-Open the file:  
-`Urbanize/Map/Loader.txt`  
-and comment out the following line by adding a `#` at the start:
-
-```txt
-#IPL data\maps\Urbanize - Mails.ipl
-```
-
-📌 *This prevents overlapping mailbox props.*  
-We may automate this step in a future update.
-
- ### ⚠️ Project 2dfx Compatibility Note
-
-For **Project 2dfx** disable loading of all binary IPLs :
-`LoadAllBinaryIPLs = 0`
-This setting forces the game to load *all* IPL files at once, which can exceed internal engine limits for object instances.  
-
-Also set Geberic Objects Draw Distance to 1.0, any increase of this value makes many props to spawn double in the same place    
-
-`GenericObjectsDrawDistance = 1.0`
-
-
-🧠 The issue is not with the IPL content itself, but with the **total number of objects loaded into memory**.
 
 ### 🛠️ How to Contribute (Add Your Own Props!)
 
@@ -129,7 +113,7 @@ Want to **add more props or maps** to the project? It's easy — and we **encour
 
 1. Install this mod locally to avoid creating conflicts with existing props  
 2. Use the editor to place your objects (IPL-based workflow)  
-3. Send us your `.ipl` or `.txt` file for testing  
+3. Send us your `.ipl` file for testing  
 4. If your submission **passes our quality check**, it will be **officially added to the next release**
 
 ✅ **We're especially looking for contributions in:**  
@@ -139,13 +123,16 @@ Want to **add more props or maps** to the project? It's easy — and we **encour
 
 Help us expand the world — one prop at a time!
 
- 
 
 ## 🤝 Credits
 
-Special thanks to:
+Special thanks to:  
+- **Grinch_, Zeneric** — The GOATS  
+- **Reaper** — mapping, creative director  
+- **James Harlet** — mapping  
+- **LandoF** — mapping  
+- **Matslick** — coordination, research  
+- **CatchyKetchup, KaiQ** — 2.2 Fixes  
 
-**@.zeneric @catchyketchup @davve95 @dreamgamernerd @landof. @notgrinch_**  
-And to all authors who granted permission to use their mods.
 
-> 💬 *Enjoy modding and keep breaking stuff — responsibly.*
+## 💬 *Enjoy modding and keep breaking stuff — responsibly.*
