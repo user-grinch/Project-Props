@@ -132,7 +132,7 @@ Special thanks to:
 - **LandoF** — mapping  
 - **Matslick** — coordination, research
 - **mixsylent** - for Objectopia 
-- **lanldsd** - for Vegetation  
+- **lanldsd** - for More Vegetation  
 - **CatchyKetchup, KaiQ, Davve95** — 2.2 Fixes  
 
 
