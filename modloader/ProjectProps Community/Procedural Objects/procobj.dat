@@ -3,27 +3,22 @@
 #PROJECT_PROPS
 #
 # SURFACE TYPE	OBJECT NAME		SPACING	MINDIST	MINROT	MAXROT	MINSCL	MAXSCL 	MINSCLZ	MAXSCLZ	ZOFFMIN	zOFFMAX	ALIGN	USEGRID
-##################################################################################################################################################
+#################################################################################################################################################
 
-PAVEMENT	proc_fochip		10.0	20.0	0	360	1.0	1.8	1.0	1.0	-0.25	-0.2	1	0
-PAVEMENT	proc_fochips2		45.0	20.0	0	360	1.0	1.8	1.0	1.0	-0.25	-0.2	1	0
-PAVEMENT	proc_food_chips		50.0	10.0	0	360	1.0	1.0	1.0	1.0	-0.25	-0.2	1	0
-PAVEMENT	proc_cigpak		20.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_burger		100.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_food_bag		100.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_inhaler		75.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_sodacup1		50.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_sodacup2		50.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_plasbot		50.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_sodacup2lid	50.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	proc_spraycan		100.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	PROC_RUBBISH_1		50.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	PROC_RUBBISH_2		50.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	PROC_RUBBISH_6		50.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	PROC_RUBBISH_5		50.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-PAVEMENT	PROC_RUBBISH_3		50.0	10.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
-
-
+PAVEMENT	proc_fochip		50.0	25.0	0	360	1.0	1.0	1.0	1.0	-0.25	-0.2	1	0
+PAVEMENT	proc_fochips2		50.0	25.0	0	360	1.0	1.0	1.0	1.0	-0.25	-0.2	1	0
+PAVEMENT	proc_food_chips		50.0	25.0	0	360	1.0	1.0	1.0	1.0	-0.25	-0.2	1	0
+PAVEMENT	proc_cigpak		50.0	20.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	proc_burger		100.0	25.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	proc_food_bag		100.0	25.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	proc_inhaler		100.0	25.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	proc_sodacup1		50.0	25.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	proc_sodacup2		50.0	25.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	proc_sodacup2lid	50.0	25.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT	PROC_RUBBISH_1		50.0	25.0	0	30	1.0	1.0	1.0	1.0	-0.01 	0.0	1	0
+PAVEMENT	PROC_RUBBISH_2		50.0	25.0	0	30	1.0	1.0	1.0	1.0	-0.01 	0.0	1	0
+PAVEMENT	PROC_RUBBISH_3		100.0	25.0	0	30	1.0	1.0	1.0	1.0	-0.01 	0.0	1	0
+PAVEMENT	PROC_RUBBISH_5		50.0	25.0	0	30	1.0	1.0	1.0	1.0	-0.01 	0.0	1	0
 
 
 
