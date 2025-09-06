@@ -28,6 +28,8 @@ On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234
 
 ## ✨ Key Features
 
+- ✅ Added thousands of new props!
+- ✅ Extended, reworked **procedural spawn system - procobj.dat** for garbage and small details across the entire map. Carefully crafted using the original game’s mechanics, with **marginal impact on FPS**
 - ✅ Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader) no crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
 - ✅ All content from version **2.3** restored
 - ✅ Includes **never-published assets** from the original Grinch's repository, added missing **textures** for never published new props
