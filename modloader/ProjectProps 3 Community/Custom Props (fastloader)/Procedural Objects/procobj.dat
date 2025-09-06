@@ -1,0 +1,153 @@
+#	PROCEDURAL	OBJECT	GENERATION	INFO
+#	---------------------------------
+#PROJECT_PROPS
+#
+#   SURFACETYPE	OBJECTNAME		SPACING	MINDIST	MINROT	MAXROT	MINSCL	MAXSCL	MINSCLZ	MAXSCLZ	ZOFFMIN	zOFFMAX	ALIGN	USEGRID
+#################################################################################################################################################
+
+FUCKED_CONCRETE	proc_plaslit		30.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0	
+FUCKED_CONCRETE	proc_amb		50.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.12	-0.12	1	1	
+FUCKED_CONCRETE	proc_sodacup1		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+FUCKED_CONCRETE	proc_sodacup2		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+FUCKED_CONCRETE	proc_sodacup2lid	30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+FUCKED_CONCRETE	proc_fochip		30.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0	
+FUCKED_CONCRETE	proc_fochips2		30.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0	
+FUCKED_CONCRETE	proc_food_chips		30.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0	
+FUCKED_CONCRETE	proc_cigpak		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+FUCKED_CONCRETE	proc_food_bag		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.0	0.0	1	0
+FUCKED_CONCRETE proc_pebble2		5.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+FUCKED_CONCRETE proc_pebble		25.0	0.0	0	360	1.0	1.1	0.01	0.01	0.005	0.01	1	0
+FUCKED_CONCRETE proc_weed3		25.0	0.0	0	360	1.0	1.0	1.0	1.0	0.0	0.0	1	0
+FUCKED_CONCRETE proc_weed2		25.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.55	-0.55	1	0
+FUCKED_CONCRETE proc_weed1		25.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.6	-0.6	1	0
+FUCKED_CONCRETE proc_cigbut		5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+FUCKED_CONCRETE proc_cigbuts		32.0	16.0	0	360	1.0	1.0	1.0	1.0	0.111	0.111	1	1
+FUCKED_CONCRETE proc_rubbish		35.0	21.0	0	360	1.0	1.0	1.0	1.0	0.11	0.11	1	1
+FUCKED_CONCRETE PROC_RUBBISH_5		70.0	30.0	0	0	1.0	1.1	1.0	1.0	0.0	0.0	1	1
+
+PAVEMENT proc_plaslit			30.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0
+PAVEMENT proc_sodacup1			30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT proc_sodacup2			30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT proc_sodacup2lid		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT proc_fochip			30.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0
+PAVEMENT proc_fochips2			30.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0
+PAVEMENT proc_food_chips		30.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0
+PAVEMENT proc_burger			50.0	0.0	0	360	0.5	0.5	0.3	0.3	0.005	0.01	1	0
+PAVEMENT proc_cigpak			30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT proc_food_bag			50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.0	0.0	1	0
+PAVEMENT proc_inhaler			50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+PAVEMENT proc_pebble2			5.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT proc_pebble			25.0	0.0	0	360	1.0	1.1	0.01	0.01	0.005	0.01	1	0
+PAVEMENT proc_weed3			25.0	0.0	0	360	1.0	1.0	1.0	1.0	0.0	0.0	1	0
+PAVEMENT proc_weed2			25.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.55	-0.55	1	0
+PAVEMENT proc_weed1			25.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.6	-0.6	1	0
+PAVEMENT proc_cigbut			5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+PAVEMENT proc_cigbuts			32.0	15.0	0	360	1.0	1.0	1.0	1.0	0.111	0.111	1	1
+PAVEMENT proc_rubbish			55.0	20.0	0	360	1.0	1.0	1.0	1.0	0.11	0.11	1	1
+PAVEMENT PROC_RUBBISH_5			100.0	30.0	0	0	1.0	1.1	1.0	1.0	0.0	0.0	1	1
+	
+PAVEMENT_FUCKED proc_plaslit		30.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0
+PAVEMENT_FUCKED proc_sodacup1		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_sodacup2		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_sodacup2lid	30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_fochip		30.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0
+PAVEMENT_FUCKED proc_fochips2		30.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0
+PAVEMENT_FUCKED proc_food_chips		30.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0
+PAVEMENT_FUCKED proc_burger		50.0	0.0	0	360	0.5	0.5	0.3	0.3	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_cigpak		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_food_bag		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.0	0.0	1	0
+PAVEMENT_FUCKED proc_inhaler		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+PAVEMENT_FUCKED proc_pebble2		5.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_pebble		25.0	0.0	0	360	1.0	1.1	0.01	0.01	0.005	0.01	1	0
+PAVEMENT_FUCKED proc_weed3		25.0	0.0	0	360	1.0	1.0	1.0	1.0	0.0	0.0	1	0
+PAVEMENT_FUCKED proc_weed2		25.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.55	-0.55	1	0
+PAVEMENT_FUCKED proc_weed1		25.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.6	-0.6	1	0
+PAVEMENT_FUCKED proc_cigbut		5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+PAVEMENT_FUCKED PROC_RUBBISH_5		100.0	35.0	0	0	1.0	1.1	1.0	1.0	0.0	0.0	1	1
+PAVEMENT_FUCKED proc_cigbuts		32.0	16.0	0	360	1.0	1.0	1.0	1.0	0.111	0.111	1	1
+PAVEMENT_FUCKED proc_rubbish		55.0	20.0	0	360	1.0	1.0	1.0	1.0	0.11	0.11	1	1
+PAVEMENT_FUCKED	proc_amb		50.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.12	-0.12	1	1	
+PAVEMENT_FUCKED proc_spraycan		70.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.34	-0.35	1	0	
+
+TARMAC proc_plaslit			70.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0	
+TARMAC proc_sodacup1			70.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC proc_sodacup2			70.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC proc_sodacup2lid			70.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC proc_fochip			70.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0	
+TARMAC proc_fochips2			70.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0	
+TARMAC proc_food_chips			70.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0		
+TARMAC proc_pebble2			5.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.006	1	0
+TARMAC proc_cigbut			5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+	
+	
+TARMAC_FUCKED	proc_plaslit		50.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0	
+TARMAC_FUCKED	proc_sodacup1		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC_FUCKED	proc_sodacup2		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC_FUCKED	proc_sodacup2lid	50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC_FUCKED	proc_fochip		50.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0	
+TARMAC_FUCKED	proc_fochips2		50.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0	
+TARMAC_FUCKED	proc_food_chips		50.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0	
+TARMAC_FUCKED	proc_pebble2		5.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.006	1	0
+TARMAC_FUCKED 	proc_cigbut		5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0	
+
+TARMAC_REALLYFUCKED proc_plaslit	30.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0
+TARMAC_REALLYFUCKED proc_syrnige	70.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0	
+TARMAC_REALLYFUCKED proc_amb		70.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.12	-0.12	1	0
+TARMAC_REALLYFUCKED proc_sodacup1	30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+TARMAC_REALLYFUCKED proc_sodacup2	30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+TARMAC_REALLYFUCKED proc_sodacup2lid	30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+TARMAC_REALLYFUCKED proc_fochip		30.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0
+TARMAC_REALLYFUCKED proc_fochips2	30.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0
+TARMAC_REALLYFUCKED proc_food_chips	30.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0
+TARMAC_REALLYFUCKED proc_cigpak		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+TARMAC_REALLYFUCKED proc_cigbut		5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+TARMAC_REALLYFUCKED proc_pebble2	5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+TARMAC_REALLYFUCKED proc_pebble		5.0	0.0	0	360	1.0	1.0	1.0	1.0	0.05	0.05	1	0
+
+SAND_BEACH proc_plaslit			50.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0
+SAND_BEACH proc_amb			70.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.12	-0.12	1	0
+SAND_BEACH proc_sodacup1		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+SAND_BEACH proc_sodacup2		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+SAND_BEACH proc_sodacup2lid		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+SAND_BEACH proc_fochip			50.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0
+SAND_BEACH proc_fochips2		50.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0
+SAND_BEACH proc_food_chips		50.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0
+SAND_BEACH proc_cigpak			30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+SAND_BEACH proc_food_bag		70.0	0.0	0	360	1.0	1.1	1.0	1.0	0.0	0.0	1	0
+SAND_BEACH proc_pebble			5.0	0.0	0	360	0.1	1.0	0.1	1.0	0.0	0.0	1	0
+SAND_BEACH proc_pebble2			5.0	0.0	0	360	0.1	1.0	0.1	1.0	0.0	0.0	1	0
+SAND_BEACH cj_oyster_2			30.0	0.0	0	360	0.05	0.05	1.0	1.0	-0.2	-0.2	1	0
+SAND_BEACH sandcastle1			40.0	0.0	0	360	1.0	1.0	2.0	2.0	0.0	0.0	1	0
+SAND_BEACH sandcastle2			40.0	0.0	0	360	1.0	1.0	2.0	2.0	0.0	0.0	1	0
+SAND_BEACH proc_cigpbut			10.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+
+
+CONCRETE_BEACH	proc_plaslit		30.0	0.0	0	360	1.0	1.1	1.0	1.0	-0.31	-0.31	1	0
+CONCRETE_BEACH	proc_sodacup1		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+CONCRETE_BEACH	proc_sodacup2		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+CONCRETE_BEACH	proc_sodacup2lid	30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+CONCRETE_BEACH	proc_fochip		30.0	0.0	0	360	0.8	0.8	0.1	0.1	-0.27	-0.27	1	0
+CONCRETE_BEACH	proc_fochips2		30.0	0.0	0	360	1.0	1.0	0.1	0.1	-0.28	-0.28	1	0
+CONCRETE_BEACH	proc_food_chips		30.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.05	-0.05	1	0
+CONCRETE_BEACH	proc_cigpak		30.0	0.0	0	360	1.0	1.1	1.0	1.0	0.005	0.01	1	0
+CONCRETE_BEACH	proc_food_bag		50.0	0.0	0	360	1.0	1.1	1.0	1.0	0.0	0.0	1	0
+CONCRETE_BEACH 	proc_pebble		25.0	0.0	0	360	0.1	1.0	0.1	1.0	0.0	0.0	1	0
+CONCRETE_BEACH 	proc_pebble2		25.0	0.0	0	360	0.1	1.0	0.1	1.0	0.0	0.0	1	0
+
+GRAVEL	proc_pebble2			10.0	0.0	0	360	0.1	1.0	0.1	1.0	0.0	0.0	1	0
+GRAVEL	proc_pebble			10.0	0.0	0	360	0.1	1.0	0.1	1.0	0.0	0.0	1	0
+GRAVEL  proc_weed3			10.0	0.0	0	360	1.0	1.0	1.0	1.0	0.0	0.0	1	0
+GRAVEL  proc_weed2			10.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.55	-0.55	1	0
+GRAVEL  proc_weed1			10.0	0.0	0	360	1.0	1.0	1.0	1.0	-0.6	-0.6	1	0
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+
+	
