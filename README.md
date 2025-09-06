@@ -24,7 +24,7 @@ Highly Recommended, increases stability, when you have other object.dat mods it'
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
-On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you will get all the support needed, but first read this page!
+On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you will get all the support needed to solve any compatibility issues. 
 
 ## ✨ Key Features
 
