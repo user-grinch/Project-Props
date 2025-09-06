@@ -4,10 +4,14 @@
 
 With version **3**, the mod is **bigger, more beautiful, and more stable than ever before**.  
 
+## 🫂 First off all: 
+💬**JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
+
+On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you will get all the support needed, but first read this page!
 
 
 
-## You need:
+## ℹ️ You need:
 If you start your journey with modding:
 - [Essentials Pack](https://www.mixmods.com.br/2019/06/sa-essentials-pack/)
 
@@ -18,7 +22,11 @@ Mandatory:
 Highly Recommended, increases stability, when you have other object.dat mods it's mandatory:
 - [fastman92 limit adjuster]([https://www.mixmods.com.br/2022/01/fastman92-limit-adjuster/](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html))  - use this setting ```Object info entries = 200```
 
-## ✅ Key Features
+💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
+
+On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you will get all the support needed, but first read this page!
+
+## ✨ Key Features
 
 - ✅ Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader) no crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
 - ✅ All content from version **2.3** restored
@@ -37,7 +45,6 @@ Highly Recommended, increases stability, when you have other object.dat mods it'
 
 ## 📦 Included Projects with permissions and active colaboration with the authors
 
-
 - 🔗 [Mixsylent's Objectopia v1.4.0](https://forum.mixmods.com.br/f6-mapas-objetos/t8549-sa-wip-objectopia-v1-4-0?sid=cc4bd3d576bf30378ef8b398995cbf0a) 
 - 🔗 *Lando Props* – featuring:  
   - Easter Basin Naval Station (SF)  
@@ -45,19 +52,16 @@ Highly Recommended, increases stability, when you have other object.dat mods it'
 - 🔗 [James's Props – Improved Map Environment](https://libertycity.net/files/gta-san-andreas/209720-jamess-props-improved-map-environment.html)
 - 🔗 *Reaper’s Camp* – a **Breaking Bad-inspired** trailer site with realistic detailing
 
-  ## ⚙️ About Merging
+## ⚙️ About Merging
 
-All merging was performed using a **custom script**:
-- The script performs smart collision detection, thanks to that we were able to merge many mapping projects and assure Urbanize compatibility 
-
-
-  ## If you notice any **object collision**, visual glitch, or bug:
+All merging was performed using a **custom script**. The script performs smart collision detection, thanks to that we were able to merge many mapping projects and assure Urbanize compatibility.
+If you notice any **object collision**, visual glitch, or bug:
   - **Please report it!**
   - Include a **screenshot** and **exact XYZ coordinates**  
   - We patch bugs quickly and consistently !
 
 
-### ⚠️ Urbanize Compatibility Note
+## ⚠️ Urbanize Compatibility Note
 
 If you prefere Urbanize Mailboxes, Hydrants and Parking Meters - Use default settings
 If you want the best experience disable Urbanize Mailboxes, Hydrants and Parking Meters in the modloader/Urbanize/Map/Loader.txt
@@ -67,7 +71,7 @@ IPL data\maps\Urbanize - Mails.ipl
 IPL data\maps\Urbanize - Street Side.ipl
 ```
 
-### ⚠️ Project 2dfx Compatibility Note
+## ⚠️ Project 2dfx Compatibility Note
 
 For **Project 2dfx**, make sure to **disable loading of all binary IPLs**. If not game will crash.
 
@@ -89,7 +93,11 @@ When combining **Urbanize + Improved Vegetation Distance + Project Props Communi
 
 By default, **Project Props Community** ships with settings that leave some spare headroom for additional objects.  
 
-### 🛠️ How to Contribute (Add Your Own Props!)
+## 🛠️ How to Contribute (Add Your Own Props!)
+
+**JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
+
+💬 On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you can ask the questions and submit your contributions. 
 
 Want to **add more props or maps** to the project? It's easy — and we **encourage it**!
 
