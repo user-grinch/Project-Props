@@ -79,18 +79,16 @@ If you notice any **object collision**, visual glitch, or bug:
 
 Files in Proper Fixes
 - `Proper_Fixes\(optional - increase vegetation distance)\Increased Vegetation Distance\data\procobj.dat`  
-  → Purpose: disables all procedural plants/rocks, because *Increased Vegetation Distance (IVD)* places them via `.ipl` instead.  
+  Purpose: disables all procedural plants/rocks, because *Increased Vegetation Distance (IVD)* places them via `.ipl` instead.  
   IPL has greater draw distance, so vegetation doesn’t "pop in". This file is basically empty.
 
 - `Proper_Fixes\Proper Fixes\Misc\data\procobj.dat`  
-  → Purpose: fixes Rockstar’s original vegetation placements to avoid floating objects.  
+  Purpose: fixes Rockstar’s original vegetation placements to avoid floating objects.  
   But with IVD installed, this is **not necessary**, since IVD replaces vegetation anyway.
 
 Our `procobj.dat`
 - `Project-Props\modloader\ProjectProps 3.1 Community\Custom Props (fastloader)\Procedural Objects\procobj.dat`  
-  → Does what Rockstar never finished: a proper procedural system that spawns **small details** (garbage, weeds, cigarette butts, shells, etc.) automatically across surfaces, avoiding manual placements.  
-
----
+  Does what Rockstar never finished: a proper procedural system that spawns **small details** (garbage, weeds, cigarette butts, shells, etc.) automatically across surfaces, avoiding manual placements.  
 
 Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
 1. Copy `procobj.dat` from *Increased Vegetation Distance* into the **original game data folder** (replace the vanilla one).  
@@ -103,15 +101,13 @@ Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
    - `Proper_Fixes\Proper Fixes\Misc\data\.objectdat\object.dat`  
    - By default this is disabled.  
    - With **FastLoader** you can now enable it safely:  
-     Rename it to `object.fastloader`. FastLoader will handle it without crashes.  
+     Rename it to `object.fastloader` and delete `.` from the folder's name. FastLoader will handle it without crashes.  
 
 This way you get:  
 - Proper Fixes bug corrections  
 - Increased Vegetation Distance with high draw distance  
 - Project Props procedural small details  
 - Full FastLoader compatibility
-
-
 
 ## ⚠️ Urbanize Compatibility Note
 
