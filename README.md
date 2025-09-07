@@ -4,6 +4,10 @@
 
 With version **3**, the mod is **bigger, more beautiful, and more stable than ever before**.  
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/204bb565-5bde-4819-9d92-94c1fb7cf329" alt="Project Props Community RC1" />
+</p>
+
 ## 🫂 First off all: 
 💬**JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
@@ -46,42 +50,6 @@ This ensures you get **proper crash messages** from the Essentials Pack. FLA’s
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
 On this [**Channel**](https://discord.com/channels/689515979847237649/1414177877515046934) you will get all the support needed to solve any compatibility issues. 
-
-## ✨ Key Features
-
-- ✅ Added thousands of new props!
-- ✅ Extended, reworked **procedural spawn system - procobj.dat** for garbage and small details across the entire map. Carefully crafted using the original game’s mechanics, with **marginal impact on FPS**
-- ✅ Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader) no crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
-- ✅ All content from version **2.3** restored
-- ✅ Includes **never-published assets** from the original Grinch's repository, added missing **textures** for never published new props
-- ✅ All [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html) included
-- ✅ Fully compatible with **Urbanize!**
-- ✅ No crashes reported during testing
-- ✅ Extended Residue Objects functionality (ProjectProps.asi) on all the lamppost and traffic lights
-- ✅ Fixed occasionall crash with the script ProjectProps.asi 
-- ✅ Fixed **positioning** for hundreds of models, positioning bugs are very rare now
-- ✅ **Weeds** optimized by @.zeneric - thousand of automaticly generated weeds models are now merged into batches, to optimise memory usage, it's a technique from modern games
-  
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/204bb565-5bde-4819-9d92-94c1fb7cf329" alt="Project Props Community RC1" />
-</p>
-
-## 📦 Included Projects with permissions and active colaboration with the authors
-
-- 🔗 [Mixsylent's Objectopia v1.4.0](https://forum.mixmods.com.br/f6-mapas-objetos/t8549-sa-wip-objectopia-v1-4-0?sid=cc4bd3d576bf30378ef8b398995cbf0a) 
-- 🔗 *Lando Props* – featuring:  
-  - Easter Basin Naval Station (SF)  
-  - Simple Beach (LS)
-- 🔗 [James's Props – Improved Map Environment](https://libertycity.net/files/gta-san-andreas/209720-jamess-props-improved-map-environment.html)
-- 🔗 *Reaper’s Camp* – a **Breaking Bad-inspired** trailer site with realistic detailing
-
-## ⚙️ About Merging
-
-All merging was performed using a **custom script**. The script performs smart collision detection, thanks to that we were able to merge many mapping projects and assure Urbanize compatibility.
-If you notice any **object collision**, visual glitch, or bug:
-  - **Please report it!**
-  - Include a **screenshot** and **exact XYZ coordinates**  
-  - We patch bugs quickly and consistently !
 
 ## ⚠️ Proper Fixes Compatibility Note
 
@@ -127,7 +95,6 @@ Compatibility with such mods is **not supported** – and in fact, you don’t n
 In general, **modloader** has no problem merging multiple `procobj.dat` files.  
 However, other mods that modify `surfinfo.dat` may conflict and cause crashes when used alongside Project Props.
 
-
 ## ⚠️ Urbanize Compatibility Note
 
 If you prefere Urbanize Mailboxes, Hydrants and Parking Meters - Use default settings
@@ -137,7 +104,6 @@ Delete or #comment those lines:
 IPL data\maps\Urbanize - Mails.ipl
 IPL data\maps\Urbanize - Street Side.ipl
 ```
-
 ## ⚠️ Project 2dfx Compatibility Note
 
 For **Project 2dfx**, make sure to **disable loading of all binary IPLs**. If not game will crash.
@@ -159,6 +125,39 @@ When combining **Urbanize + Improved Vegetation Distance + Project Props Communi
   - extended draw distance  
 
 By default, **Project Props Community** ships with settings that leave some spare headroom for additional objects.  
+
+## ✨ Key Features
+
+- ✅ Added thousands of new props!
+- ✅ Extended, reworked **procedural spawn system - procobj.dat** for garbage and small details across the entire map. Carefully crafted using the original game’s mechanics, with **marginal impact on FPS**
+- ✅ Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader) no crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
+- ✅ All content from version **2.3** restored
+- ✅ Includes **never-published assets** from the original Grinch's repository, added missing **textures** for never published new props
+- ✅ All [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html) included
+- ✅ Fully compatible with **Urbanize!**
+- ✅ No crashes reported during testing
+- ✅ Extended Residue Objects functionality (ProjectProps.asi) on all the lamppost and traffic lights
+- ✅ Fixed occasionall crash with the script ProjectProps.asi 
+- ✅ Fixed **positioning** for hundreds of models, positioning bugs are very rare now
+- ✅ **Weeds** optimized by @.zeneric - thousand of automaticly generated weeds models are now merged into batches, to optimise memory usage, it's a technique from modern games
+
+
+## 📦 Included Projects with permissions and active colaboration with the authors
+
+- 🔗 [Mixsylent's Objectopia v1.4.0](https://forum.mixmods.com.br/f6-mapas-objetos/t8549-sa-wip-objectopia-v1-4-0?sid=cc4bd3d576bf30378ef8b398995cbf0a) 
+- 🔗 *Lando Props* – featuring:  
+  - Easter Basin Naval Station (SF)  
+  - Simple Beach (LS)
+- 🔗 [James's Props – Improved Map Environment](https://libertycity.net/files/gta-san-andreas/209720-jamess-props-improved-map-environment.html)
+- 🔗 *Reaper’s Camp* – a **Breaking Bad-inspired** trailer site with realistic detailing
+
+## ⚙️ About Merging
+
+All merging was performed using a **custom script**. The script performs smart collision detection, thanks to that we were able to merge many mapping projects and assure Urbanize compatibility.
+If you notice any **object collision**, visual glitch, or bug:
+  - **Please report it!**
+  - Include a **screenshot** and **exact XYZ coordinates**  
+  - We patch bugs quickly and consistently !
 
 ## 🛠️ How to Contribute (Add Your Own Props!)
 
