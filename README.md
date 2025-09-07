@@ -7,7 +7,13 @@ With version **3**, the mod is **bigger, more beautiful, and more stable than ev
 ## 🫂 First off all: 
 💬**JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
-On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you will get all the support needed, but first read this page!
+Once inside, use the correct channel:  
+- `#crash-help` → if your game crashes  
+- `#position-bugs` → if you find misplaced or floating props  
+- `#mapping-lab` → to share new mapping ideas or contributions  
+- `#general` → for general discussion and questions  
+
+This helps us keep things organized and ensures faster fixes!
 
 
 
