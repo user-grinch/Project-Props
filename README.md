@@ -28,10 +28,20 @@ Mandatory:
 Highly Recommended: 
 - [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html)  - increases stability, when you have other object.dat mods it's mandatory
 
-Use this setting in the `fastman92limitAdjuster_GTASA.ini`
+Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:
+
 ```ini
 Object info entries = 200
 ```
+Without this setting you can **start a new game**, but **loading from save games will fail**.  The game won’t crash in a classic way – instead you’ll get a black screen on load.
+
+For reporting purposes, also set:
+
+```ini
+Register global exception handler = 0
+```
+This ensures you get **proper crash messages** from the Essentials Pack. FLA’s own crash log is basically useless: it only shows the last loaded file, which is often misleading.
+
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
