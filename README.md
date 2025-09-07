@@ -20,7 +20,10 @@ Mandatory:
 - [FastLoader](https://github.com/user-grinch/FastLoader/releases) - created specially for Project Props 3 purpose
 
 Highly Recommended, increases stability, when you have other object.dat mods it's mandatory:
-- [fastman92 limit adjuster]([https://www.mixmods.com.br/2022/01/fastman92-limit-adjuster/](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html))  - use this setting ```Object info entries = 200```
+- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html)  - use this setting in the `fastman92limitAdjuster_GTASA.ini`
+```ini
+Object info entries = 200
+```
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
