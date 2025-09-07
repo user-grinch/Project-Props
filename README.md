@@ -22,8 +22,8 @@ If you start your journey with modding:
 - [Essentials Pack](https://www.mixmods.com.br/2019/06/sa-essentials-pack/)
 
 Mandatory:
-- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - default settings
-- [FastLoader](https://github.com/user-grinch/FastLoader/releases) - created specially for Project Props 3 purpose
+- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - use with default settings
+- [FastLoader](https://github.com/user-grinch/FastLoader/releases) - created specially for Project Props 3 purpose, ensures compatibility with Proper Fixes and makes props breakable 
 
 Highly Recommended, increases stability, when you have other object.dat mods it's mandatory:
 - [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html)  - use this setting in the `fastman92limitAdjuster_GTASA.ini`
