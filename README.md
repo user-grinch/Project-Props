@@ -109,6 +109,15 @@ This way you get:
 - Project Props procedural small details  
 - Full FastLoader compatibility
 
+## ⚠️ Procobj.dat / surfinfo.dat Mods
+
+Mods like *Sidewalk Weeds* (our mod already does the same) interfere with the **procedural object system** used in Project Props.  
+Compatibility with such mods is **not supported** – and in fact, you don’t need them anymore.  
+
+In general, **modloader** has no problem merging multiple `procobj.dat` files.  
+However, other mods that modify `surfinfo.dat` may conflict and cause crashes when used alongside Project Props.
+
+
 ## ⚠️ Urbanize Compatibility Note
 
 If you prefere Urbanize Mailboxes, Hydrants and Parking Meters - Use default settings
