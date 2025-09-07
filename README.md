@@ -35,7 +35,7 @@ Object info entries = 200
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
-On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you will get all the support needed to solve any compatibility issues. 
+On this [**Channel**](https://discord.com/channels/689515979847237649/1414177877515046934) you will get all the support needed to solve any compatibility issues. 
 
 ## ✨ Key Features
 
@@ -110,7 +110,7 @@ By default, **Project Props Community** ships with settings that leave some spar
 
 **JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
-💬 On this [**Channel**](https://discord.com/channels/689515979847237649/1412550234432737312) you can ask the questions and submit your contributions. 
+💬 On this [**Channel**](https://discord.com/channels/689515979847237649/1414178215420760124) you can ask the questions and submit your contributions. 
 
 Want to **add more props or maps** to the project? It's easy — and we **encourage it**!
 
