@@ -29,7 +29,7 @@ This helps us keep things organized and ensures faster fixes!
 - [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - use with default settings
 - [FastLoader](https://github.com/user-grinch/FastLoader/releases) - created specially for Project Props 3 purpose, ensures compatibility with Proper Fixes and makes props breakable 
 
-**Highly Recommended: **
+**Highly Recommended:**
 - [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html)  - increases stability, when you have other object.dat mods it's mandatory
 
 Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:
