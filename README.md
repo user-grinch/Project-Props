@@ -22,22 +22,33 @@ This helps us keep things organized and ensures faster fixes!
 
 
 ## ℹ️ You need:
-**If you start your journey with modding:**
-- [Essentials Pack](https://www.mixmods.com.br/2019/06/sa-essentials-pack/)
 
-**Mandatory:**
-- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - use with default settings
-- [FastLoader](https://github.com/user-grinch/FastLoader/releases) - created specially for Project Props 3 purpose, ensures compatibility with Proper Fixes and makes props breakable 
+**If you’re just starting your journey with modding:**  
+- [Essentials Pack](https://www.mixmods.com.br/2019/06/sa-essentials-pack/)  
+*Without it:* you won’t be able to run any script mod.  
 
-**Highly Recommended:**
-- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html)  - increases stability, when you have other object.dat mods it's mandatory
+---
 
-Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:
+**Mandatory:**  
+- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) – use with default settings  
+*Without it:* Don’t even try.  
 
+---
+
+**Optional:**  
+- [FastLoader](https://github.com/user-grinch/FastLoader/releases) – created specifically for Project Props 3; it loads `object.dat` lines for newly added objects and makes them breakable.  
+*Without it:* Nothing serious, but newly added objects (e.g. road signs) won’t be breakable.  
+
+---
+
+**Highly Recommended:**  
+- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html) – improves stability. Requires a small configuration (see below).  
+*Without it:* For some users you can **start a new game**, but **loading saved games will fail**.  
+
+Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:  
 ```ini
 Object info entries = 200
 ```
-Without this setting you can **start a new game**, but **loading from save games will fail**.  The game won’t crash in a classic way – instead you’ll get a black screen on load.
 
 For reporting purposes, also set:
 
