@@ -84,19 +84,17 @@ Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
    → All vegetation will then be handled by IVD `.ipl` files = no duplication.  
 
 2. Delete `Proper_Fixes\Proper Fixes\Misc\data\procobj.dat`.  
-   → Not needed anymore, IVD already manages vegetation.  
+   → Not needed anymore, IVD already manages vegetation.
 
-3. The elephant in the room:  
-   - `Proper_Fixes\Proper Fixes\Misc\data\.objectdat\object.dat`  
-   - By default this is disabled.  
-   - With **FastLoader** you can now enable it safely:  
-     Rename it to `object.fastloader` and delete `.` from the folder's name. FastLoader will handle it without crashes.  
-
-This way you get:  
+   This way you get:  
 - Proper Fixes bug corrections  
 - Increased Vegetation Distance with high draw distance  
 - Project Props procedural small details  
-- Full FastLoader compatibility
+
+
+## ⚠️ Object.dat mods
+Mods that edit `object.dat` values of original positions must be merged manually and copied to the `/data` folder — Fastloader enforces this behavior.  
+Project Props 3 uses Fastloader only to load **additional lines** for newly added objects into the `object.dat` file inside `/data`. 
 
 ## ⚠️ Procobj.dat / surfinfo.dat Mods
 
