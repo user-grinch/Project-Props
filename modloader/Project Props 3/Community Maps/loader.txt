@@ -9,3 +9,4 @@ IPL data/maps/James Harlet - El Quebrados.ipl
 IPL data/maps/Reaper - Breaking Bad Cooking Camp.ipl
 IPL data/maps/Community - San Fierro Light House.ipl
 #IPL data/maps/Lanldsd - More Vegetation.ipl
+IPL data/maps/Lanldsd - More Vegetation - props.ipl
