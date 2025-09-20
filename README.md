@@ -22,22 +22,33 @@ This helps us keep things organized and ensures faster fixes!
 
 
 ## ℹ️ You need:
-**If you start your journey with modding:**
-- [Essentials Pack](https://www.mixmods.com.br/2019/06/sa-essentials-pack/)
 
-**Mandatory:**
-- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) - use with default settings
-- [FastLoader](https://github.com/user-grinch/FastLoader/releases) - created specially for Project Props 3 purpose, ensures compatibility with Proper Fixes and makes props breakable 
+**If you’re just starting your journey with modding:**  
+- [Essentials Pack](https://www.mixmods.com.br/2019/06/sa-essentials-pack/)  
+*Without it:* you won’t be able to run any script mod.  
 
-**Highly Recommended:**
-- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html)  - increases stability, when you have other object.dat mods it's mandatory
+---
 
-Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:
+**Mandatory:**  
+- [Open Limit Adjuster v1.5.9](https://github.com/GTAmodding/III.VC.SA.LimitAdjuster/releases) – use with default settings  
+*Without it:* Don’t even try.  
 
+---
+
+**Optional:**  
+- [FastLoader](https://github.com/user-grinch/FastLoader/releases) – created specifically for Project Props 3; it loads `object.dat` lines for newly added objects and makes them breakable.  
+*Without it:* Nothing serious, but newly added objects (e.g. road signs) won’t be breakable.  
+
+---
+
+**Highly Recommended:**  
+- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html) – improves stability. Requires a small configuration (see below).  
+*Without it:* For some users you can **start a new game**, but **loading saved games will fail**.  
+
+Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:  
 ```ini
 Object info entries = 200
 ```
-Without this setting you can **start a new game**, but **loading from save games will fail**.  The game won’t crash in a classic way – instead you’ll get a black screen on load.
 
 For reporting purposes, also set:
 
@@ -73,19 +84,17 @@ Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
    → All vegetation will then be handled by IVD `.ipl` files = no duplication.  
 
 2. Delete `Proper_Fixes\Proper Fixes\Misc\data\procobj.dat`.  
-   → Not needed anymore, IVD already manages vegetation.  
+   → Not needed anymore, IVD already manages vegetation.
 
-3. The elephant in the room:  
-   - `Proper_Fixes\Proper Fixes\Misc\data\.objectdat\object.dat`  
-   - By default this is disabled.  
-   - With **FastLoader** you can now enable it safely:  
-     Rename it to `object.fastloader` and delete `.` from the folder's name. FastLoader will handle it without crashes.  
-
-This way you get:  
+   This way you get:  
 - Proper Fixes bug corrections  
 - Increased Vegetation Distance with high draw distance  
 - Project Props procedural small details  
-- Full FastLoader compatibility
+
+
+## ⚠️ Object.dat mods
+Mods that edit `object.dat` values of original positions must be merged manually and copied to the `/data` folder — Fastloader enforces this behavior.  
+Project Props 3 uses Fastloader only to load **additional lines** for newly added objects into the `object.dat` file inside `/data`. 
 
 ## ⚠️ Procobj.dat / surfinfo.dat Mods
 
