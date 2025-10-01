@@ -382,6 +382,8 @@ objs
 19597, weedd020, weed, 65, 2097152
 19598, weedd021, weed, 65, 2097152
 19599, weedd022, weed, 65, 2097152
+19569, ppfencedoor1, BREAK_F_mesh, 120, 136
+1243, bouy, buoy, 200, 2097280
 end
 txdp
 projectprops, proc_rub
