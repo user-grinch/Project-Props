@@ -42,7 +42,7 @@ This helps us keep things organized and ensures faster fixes!
 ---
 
 **Highly Recommended:**  
-- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html) – improves stability. Requires a small configuration (see below).  
+- [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html) – improves stability. Requires a small configuration (see below). (Remember to always install it in the main directory of the game!) 
 *Without it:* For some users you can **start a new game**, but **loading saved games will fail**.  
 
 Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:  
