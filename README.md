@@ -1,6 +1,6 @@
 # Project Props 3 Community
 
-**Project Props 3 Community** is the official release, based on the community branch by **Zeneric** which itself was based on [Project Props V2.2 Fixes](https://discord.com/channels/793480791509565440/1081007139314741248) — now enhanced with [FastLoader](https://github.com/user-grinch/FastLoader) for full **open file structure** support.   This makes the mod fully editable, stable, and compatible with other mods. 
+**Project Props 3 Community** is the official release, based on the community branch by **Zeneric** which itself was based on [Project Props V2.2 Fixes](https://discord.com/channels/793480791509565440/1081007139314741248) — now with fixed object.dat merging with modloader. (no need of Fastloader) 
 
 With version **3**, the mod is **bigger, more beautiful, and more stable than ever before**.  
 
@@ -35,19 +35,30 @@ This helps us keep things organized and ensures faster fixes!
 
 ---
 
-**Optional:**  
-- [FastLoader](https://github.com/user-grinch/FastLoader/releases) – created specifically for Project Props 3; it loads `object.dat` lines for newly added objects and makes them breakable.  
-*Without it:* Nothing serious, but newly added objects (e.g. road signs) won’t be breakable.  
-
----
-
 **Highly Recommended:**  
 - [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html) – improves stability. Requires a small configuration (see below). (Remember to always install it in the main directory of the game!) 
-*Without it:* For some users you can **start a new game**, but **loading saved games will fail**.  
+*Without it:* For some users you can **start a new game**, but **loading saved games will fail**. Many props will be spawned twice, game will be unstable. 
 
 Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:  
 ```ini
 Object info entries = 200
+```
+
+
+```ini
+Apply ID limit patch = 1
+```
+
+```ini
+FILE_TYPE_DFF = 50000
+```
+
+```ini
+FILE_TYPE_TXD = 60000
+```
+
+```ini
+Count of killable model IDs = 42000;
 ```
 
 For reporting purposes, also set:
@@ -55,7 +66,7 @@ For reporting purposes, also set:
 ```ini
 Register global exception handler = 0
 ```
-This ensures you get **proper crash messages** from the Essentials Pack. FLA’s own crash log is basically useless: it only shows the last loaded file, which is often misleading.
+This ensures you get **proper crash messages** from the Essentials Pack. 
 
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
