@@ -87,7 +87,7 @@ Files in Proper Fixes
   But with IVD installed, this is **not necessary**, since IVD replaces vegetation anyway.
 
 Our `procobj.dat`
-- `Project-Props\modloader\ProjectProps 3.1 Community\Custom Props (fastloader)\Procedural Objects\procobj.dat`  
+- `Project-Props\modloader\ProjectProps 3.1 Community\Custom Props\Procedural Objects\procobj.dat`  
   Does what Rockstar never finished: a proper procedural system that spawns **small details** (garbage, weeds, cigarette butts, shells, etc.) automatically across surfaces, avoiding manual placements.  
 
 Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
@@ -103,18 +103,6 @@ Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
 - Project Props procedural small details  
 
 
-## ⚠️ Object.dat mods
-Mods that edit `object.dat` values of original positions must be merged manually and copied to the `/data` folder — Fastloader enforces this behavior.  
-Project Props 3 uses Fastloader only to load **additional lines** for newly added objects into the `object.dat` file inside `/data`. 
-
-## ⚠️ Procobj.dat / surfinfo.dat Mods
-
-Mods like *Sidewalk Weeds* (our mod already does the same) interfere with the **procedural object system** used in Project Props.  
-Compatibility with such mods is **not supported** – and in fact, you don’t need them anymore.  
-
-In general, **modloader** has no problem merging multiple `procobj.dat` files.  
-However, other mods that modify `surfinfo.dat` may conflict and cause crashes when used alongside Project Props.
-
 ## ⚠️ Urbanize Compatibility Note
 
 If you prefere Urbanize Mailboxes, Hydrants and Parking Meters - Use default settings
@@ -124,33 +112,11 @@ Delete or #comment those lines:
 IPL data\maps\Urbanize - Mails.ipl
 IPL data\maps\Urbanize - Street Side.ipl
 ```
-## ⚠️ Project 2dfx Compatibility Note
-
-For **Project 2dfx**, make sure to **disable loading of all binary IPLs**. If not game will crash.
-
-```ini
-LoadAllBinaryIPLs = 0
-```
-
-Potential Bugs (it does not happen for everybody!): fter tens of thousands of props (not counted precisely yet), the game starts duplicating objects.  
-
-When combining **Urbanize + Improved Vegetation Distance + Project Props Community**, increasing values in the `[IDE Tweaker]` section causes props to spawn **twice in the same spot** (especially noticeable with breakables like lampposts, fences, etc.).
-
-👉 Don’t worry — the game doesn’t crash (though honestly, it feels like it should).
-
-### ✅ The Key is Balance
-- **More draw distance in Project2dfx (only IDE Tweaker) = fewer props you can safely load** in `.ipl` files without triggering duplicates.  
-- Everyone needs to find their own **sweet spot** between:
-  - total prop count  
-  - extended draw distance  
-
-By default, **Project Props Community** ships with settings that leave some spare headroom for additional objects.  
 
 ## ✨ Key Features
 
 - ✅ Added thousands of new props!
 - ✅ Extended, reworked **procedural spawn system - procobj.dat** for garbage and small details across the entire map. Carefully crafted using the original game’s mechanics, with **marginal impact on FPS**
-- ✅ Thanks to the [FastLoader](https://github.com/user-grinch/FastLoader) no crashes with other `.dat` mods (e.g. *Proper Fixes*, *Combat FX Update*)
 - ✅ All content from version **2.3** restored
 - ✅ Includes **never-published assets** from the original Grinch's repository, added missing **textures** for never published new props
 - ✅ All [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html) included
