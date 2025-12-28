@@ -37,13 +37,16 @@ This helps us keep things organized and ensures faster fixes!
 
 **Highly Recommended:**  
 - [fastman92 limit adjuster](https://libertycity.net/files/gta-san-andreas/223963-fastman92-limit-adjuster.html) – improves stability. Requires a small configuration (see below). (Remember to always install it in the main directory of the game!) 
-*Without it:* For some users you can **start a new game**, but **loading saved games will fail**. Many props will be spawned twice, game will be unstable. 
 
-Make sure to use these settings in your `fastman92limitAdjuster_GTASA.ini`:  
+
+Settings in your `fastman92limitAdjuster_GTASA.ini`:  
+
 ```ini
 Object info entries = 200
 ```
+*Without it:* For some users you can **start a new game**, but **loading saved games will fail**.
 
+---
 
 ```ini
 Apply ID limit patch = 1
@@ -56,17 +59,16 @@ FILE_TYPE_DFF = 50000
 ```ini
 FILE_TYPE_TXD = 60000
 ```
+*Without it:* For some users, many props will be spawned twice. (visible when you run over a post or a fence)
 
-```ini
-Count of killable model IDs = 42000;
-```
+---
 
 For reporting purposes, also set:
 
 ```ini
 Register global exception handler = 0
 ```
-This ensures you get **proper crash messages** from the Essentials Pack. 
+*Without it:* You will get crash messages from FLA instead of CrashInfo from the Essentials Pack
 
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
