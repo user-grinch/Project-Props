@@ -1,0 +1,15 @@
+#Community Mapping 
+#You can enbale More Vegetation if you want
+IPL data/maps/Landof- Easter Basin Naval Station.ipl
+IPL data/maps/Landof - Simple Beach.ipl
+IPL data/maps/Landof - Buoys.ipl
+IPL data/maps/Landof - BetterWorkingConditions.ipl
+IPL data/maps/James Harlet - LS Stadium Faire.ipl
+IPL data/maps/James Harlet - El Quebrados.ipl
+IPL data/maps/Reaper - Breaking Bad Cooking Camp.ipl
+IPL data/maps/Community - San Fierro Light House.ipl
+IPL data/maps/Lanldsd - More Vegetation.ipl
+IPL data/maps/Lanldsd - More Vegetation - props.ipl
+IPL data/maps/Marchewa99XD - Beach.ipl
+IPL data/maps/Marchewa99XD - Campfire.ipl
+IPL data/maps/Grinch - Ganton Trailer Park.ipl
