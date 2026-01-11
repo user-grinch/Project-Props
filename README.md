@@ -54,14 +54,8 @@ Apply ID limit patch = 1
 ```
 
 ```ini
-FILE_TYPE_DFF = 50000
+FILE_TYPE_DFF = 27000
 ```
-(try lower values if it crashes, around 27000)
-
-```ini
-FILE_TYPE_TXD = 60000
-```
-(try lower values if it crashes)
 
 *Without it:* For some users, many props will be spawned twice. (visible when you run over a post or a fence)
 
