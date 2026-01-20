@@ -54,14 +54,8 @@ Apply ID limit patch = 1
 ```
 
 ```ini
-FILE_TYPE_DFF = 50000
+FILE_TYPE_DFF = 27000
 ```
-(try lower values if it crashes, around 27000)
-
-```ini
-FILE_TYPE_TXD = 60000
-```
-(try lower values if it crashes)
 
 *Without it:* For some users, many props will be spawned twice. (visible when you run over a post or a fence)
 
@@ -128,8 +122,6 @@ IPL data\maps\Urbanize - Street Side.ipl
 - ✅ All [Community Fixes](https://libertycity.net/files/gta-san-andreas/221956-project-props-v2-2-fixes.html) included
 - ✅ Fully compatible with **Urbanize!**
 - ✅ No crashes reported during testing
-- ✅ Extended Residue Objects functionality (ProjectProps.asi) on all the lamppost and traffic lights
-- ✅ Fixed occasionall crash with the script ProjectProps.asi 
 - ✅ Fixed **positioning** for hundreds of models, positioning bugs are very rare now
 - ✅ **Weeds** optimized by @.zeneric - thousand of automaticly generated weeds models are now merged into batches, to optimise memory usage, it's a technique from modern games
 
