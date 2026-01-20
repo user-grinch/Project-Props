@@ -60,7 +60,7 @@ Apply ID limit patch = 1
 FILE_TYPE_DFF = 27000
 ```
 
-**Attenation:** Not compatible with Improved Vehicle Features. Use [Model Extras](https://github.com/user-grinch/ModelExtras) instead!
+**Attention:** Not compatible with Improved Vehicle Features. **It's simply better to use [Model Extras](https://github.com/user-grinch/ModelExtras) instead, also this mod has more functionality.**
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
