@@ -48,6 +48,7 @@ Object info entries = 200
 ```
 
 **Multiplied Props Fix**
+
 Behavior: For some users, many props will be spawned twice. (visible when you run over a post or a fence)
 ![double_obj-ezgif com-optimize (2)](https://github.com/user-attachments/assets/332adbc1-53a5-4662-948b-01f9fe156a69)
 
@@ -59,7 +60,7 @@ Apply ID limit patch = 1
 FILE_TYPE_DFF = 27000
 ```
 
-**Attenation:** Not compatible with Improved Vehicle Features. Use h[Model Extras](https://github.com/user-grinch/ModelExtras) instead!
+**Attenation:** Not compatible with Improved Vehicle Features. Use [Model Extras](https://github.com/user-grinch/ModelExtras) instead!
 
 💬 **ONCE AGAIN JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
 
@@ -93,17 +94,6 @@ Recommended Setup (Maximum Compatibility: Project Props + IVD + Proper Fixes)
 - Proper Fixes bug corrections  
 - Increased Vegetation Distance with high draw distance  
 - Project Props procedural small details  
-
-
-## ⚠️ Urbanize Compatibility Note
-
-If you prefere Urbanize Mailboxes, Hydrants and Parking Meters - Use default settings
-If you want the best experience disable Urbanize Mailboxes, Hydrants and Parking Meters in the modloader/Urbanize/Map/Loader.txt
-Delete or #comment those lines:
-```ini
-IPL data\maps\Urbanize - Mails.ipl
-IPL data\maps\Urbanize - Street Side.ipl
-```
 
 ## ✨ Key Features
 
