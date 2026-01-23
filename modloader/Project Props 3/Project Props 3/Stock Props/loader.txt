@@ -23,7 +23,6 @@ IPL data/maps/Project Props - AirConds.ipl
 IPL data/maps/Project Props - Vases.ipl
 IPL data/maps/Project Props - Transport.ipl
 IPL data/maps/Project Props - Signs.ipl
-IPL data/maps/Project Props - Rubbish.ipl
 IPL data/maps/Project Props - Roofs.ipl
 #IPL data/maps/Project Props - Parking Meters.ipl
 #IPL data/maps/Project Props - Mails.ipl
