@@ -1,16 +1,12 @@
 #Project Props Base
 #You can enable more Plants and Garbage Bags if you want
 IPL data/maps/Project Props.ipl
-IPL data/maps/Project Props - Plants1.ipl
-IPL data/maps/Project Props - Plants2.ipl
-IPL data/maps/Project Props - Plants3.ipl
+IPL data/maps/Project Props - Plants.ipl
 IPL data/maps/Project Props - Phone.ipl
 IPL data/maps/Project Props - Lights.ipl
 IPL data/maps/Project Props - Lamp posts.ipl
 IPL data/maps/Project Props - Industrial.ipl
-IPL data/maps/Project Props - Garbage Bags1.ipl
-IPL data/maps/Project Props - Garbage Bags2.ipl
-IPL data/maps/Project Props - Garbage Bags3.ipl
+IPL data/maps/Project Props - Garbage Bags.ipl
 IPL data/maps/Project Props - Food.ipl
 IPL data/maps/Project Props - Fences.ipl
 IPL data/maps/Project Props - Electrical.ipl
