@@ -1,8 +1,8 @@
-# Project Props 3 Community
+# Project Props 4 Community
 
-**Project Props 3 Community** is the official release, based on the community branch by **Zeneric** which itself was based on [Project Props V2.2 Fixes](https://discord.com/channels/793480791509565440/1081007139314741248) — now with fixed object.dat merging with modloader. (no need of Fastloader) 
+**Project Props 4 Community** is the official release, based on the community branch by **Zeneric** which itself was based on [Project Props V2.2 Fixes](https://discord.com/channels/793480791509565440/1081007139314741248) — now with fixed object.dat merging with modloader. (no need of Fastloader) 
 
-With version **3**, the mod is **bigger, more beautiful, and more stable than ever before**.  
+With version **4**, the mod is **bigger, more beautiful, and more stable than ever before**.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/204bb565-5bde-4819-9d92-94c1fb7cf329" alt="Project Props Community RC1" />
@@ -151,7 +151,8 @@ Want to **add more props or maps** to the project? It's easy — and we **encour
 ## 🤝 Credits
 Special thanks to:  
 - **Grinch_, Zeneric** — The GOATS  
-- **Reaper** — mapping, creative director  
+- **Reaper** — mapping, creative director, manager
+- **Marchewa** — model work, mapper, community helper
 - **James Harlet** — mapping  
 - **LandoF** — mapping  
 - **Matslick** — coordination, research
