@@ -1,4 +1,4 @@
-# Project Props 3 Community
+# Project Props 4 Community
 
 **Project Props 3 Community** is the official release, based on the community branch by **Zeneric** which itself was based on [Project Props V2.2 Fixes](https://discord.com/channels/793480791509565440/1081007139314741248) — now with fixed object.dat merging with modloader. (no need of Fastloader) 
 
