@@ -71,12 +71,14 @@ objs
 19621, table_set1, table_set1, 70, 2097280
 19622, table_set2, table_set2, 70, 2097280
 19623, table_set3, table_set3, 70, 2097280
-19524, parktable_blue, parktable_blue, 120, 2097280
-19525, parktable_brown, parktable_brown, 120, 2097280
-19526, parktable_hamp, parktable_hamp, 120, 2097280
-19527, umbrella_orange, umbrella_orange, 120, 2097280
-19528, umbrella_yellow, umbrella_yellow, 120, 2097280
-19529, umbrella_blue, umbrella_blue, 120, 2097280
+19624, parktable_blue, parktable_blue, 120, 2097280
+19625, parktable_brown, parktable_brown, 120, 2097280
+19626, parktable_hamp, parktable_hamp, 120, 2097280
+19627, umbrella_orange, umbrella_orange, 120, 2097280
+19628, umbrella_yellow, umbrella_yellow, 120, 2097280
+19629, umbrella_blue, umbrella_blue, 120, 2097280
+19630, pp_skip_empty, projectprops, 150, 0
+19631, carparksign_LAe, projectprops, 150, 0
 #fix backface culling for this object
 1243, bouy, buoy, 200, 2097280
 end
