@@ -160,4 +160,29 @@ Special thanks to:
 - **lanldsd** - for More Vegetation  
 - **CatchyKetchup, KaiQ, Davve95** — 2.2 Fixes  
 
+## 🤝 Legacy Credits (those who worked on project props before the v3 release)
+## Contributors
+- **Aaronre99**
+- **asmitgta sa**
+- **Cohex17**
+- **Davve95**
+- **eagle152**
+- **hlennarz**
+- **jak3z**
+- **Junior-Djjr**
+- **kkjj**
+- **Lil Slim C**
+- **SHIFAAH9**
+- **Weeamer**
+- **Tk armakar**
 
+## Special help (for older versions)
+- **Camil1999**
+- **methodunderg**
+- **RegistaG**
+- **SergeDV**
+- **TheNathanNS**
+- **WindowsExPee**
+- **Project Sanandreas team**
+- **SA Remapped team**
+- **Rockstar Games**
