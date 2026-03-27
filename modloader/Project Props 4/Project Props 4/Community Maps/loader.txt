@@ -20,5 +20,6 @@ IPL data/maps/James Harlet - El Quebrados.ipl
 IPL data/maps/James Harlet - Angel Pine.ipl
 IPL data/maps/Grinch - Ganton Trailer Park.ipl
 IPL data/maps/Community - San Fierro Light House.ipl
+IPL data/maps/Yutte - Hobo_alley_SF.ipl
 
 
