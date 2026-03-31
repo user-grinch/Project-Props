@@ -1,5 +1,2 @@
 If you Use BDL map, then replace the originals with these files
 - ReaperM60
-
-Replace ipl files in BDL folder
-- Marchewa99XD

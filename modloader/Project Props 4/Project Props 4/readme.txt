@@ -23,7 +23,7 @@ All downloads links are listed here: https://github.com/user-grinch/Project-Prop
  Installation
 -----------------------------------------
 1. Extract the archive.
-2. Place the folder **"Project Props 4.1 Community"** into your `modloader` directory.
+2. Place the folder **"Project Props 3.1 Community"** into your `modloader` directory.
 3. Launch the game and enjoy!
 
 -----------------------------------------
