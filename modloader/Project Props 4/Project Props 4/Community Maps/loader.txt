@@ -7,6 +7,8 @@ IPL data/maps/Marchewa99XD - Campfire.ipl
 IPL data/maps/Marchewa99XD - Beach.ipl
 IPL data/maps/Marchewa99XD - Angel Pine.ipl
 IPL data/maps/Marchewa99XD - Grove st improvements.ipl
+IPL data/maps/Marchewa99XD - SFN Terrace.ipl
+IPL data/maps/Marchewa99XD - Willowfield.ipl
 IPL data/maps/Lanldsd - More Vegetation.ipl
 IPL data/maps/Lanldsd - More Vegetation - props.ipl
 IPL data/maps/Landof- Easter Basin Naval Station.ipl
@@ -18,5 +20,4 @@ IPL data/maps/James Harlet - El Quebrados.ipl
 IPL data/maps/James Harlet - Angel Pine.ipl
 IPL data/maps/Grinch - Ganton Trailer Park.ipl
 IPL data/maps/Community - San Fierro Light House.ipl
-
-
+IPL data/maps/Yutte - Hobo_alley_SF.ipl

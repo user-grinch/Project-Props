@@ -1,5 +1,5 @@
 =========================================
-   Project Props 4.0 Community Edition
+   Project Props 4.1 Community Edition
 =========================================
 
 Thank you for downloading the Community Edition of Project Props!  
