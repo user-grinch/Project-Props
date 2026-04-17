@@ -11,10 +11,12 @@ IPL data/maps/Marchewa99XD - SFN Terrace.ipl
 IPL data/maps/Marchewa99XD - Willowfield.ipl
 IPL data/maps/Lanldsd - More Vegetation.ipl
 IPL data/maps/Lanldsd - More Vegetation - props.ipl
+IPL data/maps/Lanldsd - More Vegetation - trees.ipl
 IPL data/maps/Landof- Easter Basin Naval Station.ipl
 IPL data/maps/Landof - Simple Beach.ipl
 IPL data/maps/Landof - Buoys.ipl
 IPL data/maps/Landof - BetterWorkingConditions.ipl
+IPL data/maps/James Harlet - Trees.ipl
 IPL data/maps/James Harlet - LS Stadium Faire.ipl
 IPL data/maps/James Harlet - El Quebrados.ipl
 IPL data/maps/James Harlet - Angel Pine.ipl
