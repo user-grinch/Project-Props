@@ -2,6 +2,8 @@
 #You can enable more Plants and Garbage Bags if you want
 IPL data/maps/Project Props.ipl
 IPL data/maps/Project Props - Plants.ipl
+IPL data/maps/Project Props - Trees.ipl
+IPL data/maps/Project Props - Dead Trees.ipl
 IPL data/maps/Project Props - Phone.ipl
 IPL data/maps/Project Props - Lights.ipl
 IPL data/maps/Project Props - Lamp posts.ipl
