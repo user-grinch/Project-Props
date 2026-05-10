@@ -9,7 +9,7 @@ With version **4**, the mod is **bigger, more beautiful, and more stable than ev
 </p>
 
 ## 🫂 First off all: 
-💬**JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/4e2PkhYq)**
+💬**JOIN OUR DISCORD SERVER: [Invitation](https://discord.gg/AduJVdyqCD)**
 
 Once inside, use the correct channel:  
 - `#crash-help` → if your game crashes  
