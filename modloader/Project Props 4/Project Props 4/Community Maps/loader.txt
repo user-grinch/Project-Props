@@ -1,6 +1,11 @@
 #Community Mapping 
 #You can enbale More VegetationIf you want
 IPL data/maps/Reaper - Breaking Bad Cooking Camp.ipl
+IPL data/maps/Reaper - Blueberry Yard.ipl
+IPL data/maps/Reaper - Construction Site LV.ipl
+IPL data/maps/Reaper - Construction Site SF.ipl
+IPL data/maps/Reaper - LV Small Container Depot.ipl
+IPL data/maps/Reaper - Supermarket Backdoor.ipl
 IPL data/maps/Marchewa99XD - LV Kiosks.ipl
 IPL data/maps/Marchewa99XD - Ganton Trash.ipl
 IPL data/maps/Marchewa99XD - Campfire.ipl
@@ -9,6 +14,8 @@ IPL data/maps/Marchewa99XD - Angel Pine.ipl
 IPL data/maps/Marchewa99XD - Grove st improvements.ipl
 IPL data/maps/Marchewa99XD - SFN Terrace.ipl
 IPL data/maps/Marchewa99XD - Willowfield.ipl
+IPL data/maps/Marchewa99XD - Desert Farm.ipl
+IPL data/maps/Marchewa99XD - Red County Farm.ipl
 IPL data/maps/Lanldsd - More Vegetation.ipl
 IPL data/maps/Lanldsd - More Vegetation - props.ipl
 IPL data/maps/Lanldsd - More Vegetation - trees.ipl

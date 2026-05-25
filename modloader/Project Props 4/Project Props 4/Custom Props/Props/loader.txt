@@ -5,6 +5,8 @@ IPL data/maps/Project Props - New Signs.ipl
 IPL data/maps/Project Props - Surface Props.ipl
 IPL data/maps/Project Props - New Trash Cans.ipl
 IPL data/maps/Project Props - Luxor.ipl
+IPL data/maps/Project Props - Tables.ipl
+IPL data/maps/Project Props - Wireballs.ipl
 IDE data/models/ProjectProps.ide
 IDE data/models/SurfaceProps.ide
 IDE data/models/NewSigns.ide
