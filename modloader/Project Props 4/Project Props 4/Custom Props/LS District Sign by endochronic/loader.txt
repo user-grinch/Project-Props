@@ -1,0 +1,3 @@
+IPL data/maps/WelcomeSigns.ipl
+IDE data/models/WelcomeSigns.ide
+COLFILE 0 data/models/WelcomeSigns.col
