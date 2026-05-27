@@ -156,6 +156,7 @@ Special thanks to:
 - **James Harlet** — mapping  
 - **LandoF** — mapping  
 - **Matslick** — coordination, research
+- **Endochronic** — for LS District Signs
 - **mixsylent** - for Objectopia 
 - **lanldsd** - for More Vegetation  
 - **CatchyKetchup, KaiQ, Davve95** — 2.2 Fixes  
